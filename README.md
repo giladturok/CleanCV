@@ -62,6 +62,13 @@ This dual-command system creates a consistent visual hierarchy while accommodati
 
 ## Usage Guide :pencil:
 
+### Header and Contact Bar
+At the top of `main.tex` fill in your personal info and social media:
+```latex
+\cvname{Your Name}
+\contactbar{website.com}{email@example.com}{github-username}{linkedin-username}{scholar-url}{Location}
+```
+
 ### Primary CV Entries (`\cvposition`)
 For major entries like education and experience (each entry is _not_ part of a list):
 
@@ -107,14 +114,14 @@ For compact entries like awards, talks, and service (each entry _is_ part of a l
 
 ### Bibliography Management
 
-CleanCV automatically integrates with BibLaTeX for publication lists.
+CleanCV automatically integrates with BibLaTeX for publication lists. Additionally:
 
-1. Make your name bold in the bibliography:
+1. Make your name bold in the bibliography at the top of `main.tex`:
    ```latex
    \boldname{YourLastName}{YourFirstName}{Y}
    ```
 
-2. Mark joint first-authors in your .bib file:
+2. Mark joint first-authors in your `publications.bib` file:
    ```
    @article{keyname,
      title={Paper Title},
@@ -136,4 +143,4 @@ Switch between a comprehensive CV or a condensed resume at the top of `main.tex`
 
 ## Acknowledgments :raised_hands:
 
-CleanCV is inspired by various academic CV templates with a focus on simplicity, elegance, and readability.
+CleanCV is a customized version of the academic LaTeX CV template from [Dr. Corey Stephan](https://github.com/historical-theology/cv) and (mostly) [Dr. Bastian Rieck](Bastian Rieck).
