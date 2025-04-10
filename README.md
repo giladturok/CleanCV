@@ -4,7 +4,7 @@ CleanCV is a modern, minimal, and modular LaTeX CV designed for academics, stude
 
 This template prioritizes readability and clean typography while making it easy to maintain and update your CV.
 
-## Overview :sparkles:
+## Overview :rocket:
 
 CleanCV stands out from other academic templates with:
 
@@ -15,7 +15,7 @@ CleanCV stands out from other academic templates with:
 - **Popular CV sections** are included by default:
     - Research interests, education, experience, publications, awards & honors, skills, talks & presentations, teaching, service, code & software
  
-Specific features include:
+Specific features :sparkles: include:
 - **Contact bar with icons** for personal info and social media
 - **CV/Resume dual mode** with conditional section display
 - **BibLaTeX integration** for seamless use with `publications.bib`
@@ -23,7 +23,7 @@ Specific features include:
 - **Support for joint first author** annotations in publications
 - **Last-updated date** automatically generated
 
-## Setup :rocket:
+## Setup :gear:
 
 ### Option 1: Use on Overleaf (Recommended)
 1. Create a [new Overleaf project](https://www.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf)
