@@ -36,8 +36,6 @@ CleanCV stands out from other academic templates with:
 
 ## Setup :rocket:
 
-Before adding your info, setup the CleanCV template:
-
 ### Option 1: Use on Overleaf (Recommended)
 1. Create a [new Overleaf project](https://www.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf)
 2. Copy the `main.tex`, `cleanCV.sty`, and `publications.bib` files to your Overleaf project
@@ -47,7 +45,8 @@ If you have Overleaf premium, you can instead use this template to create a new 
 ### Option 2: Use Locally
 1. Install Tex/LaTeX ([get LaTeX](https://www.latex-project.org/get/))
 2. Create a new Github repo by using this template
-3. Clone your new Github repo locally:
+3. Clone your new Github repo locally: `git clone https://github.com/yourusername/CleanCV.git`
+   
    ```bash
    git clone https://github.com/yourusername/CleanCV.git
    ```
