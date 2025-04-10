@@ -143,4 +143,4 @@ Switch between a comprehensive CV or a condensed resume at the top of `main.tex`
 
 ## Acknowledgments :raised_hands:
 
-CleanCV is a customized version of the academic LaTeX CV template from [Dr. Corey Stephan](https://github.com/historical-theology/cv) and (mostly) [Dr. Bastian Rieck](Bastian Rieck).
+CleanCV is a customized version of the academic LaTeX CV template from [Dr. Corey Stephan](https://github.com/historical-theology/cv) and (mostly) [Dr. Bastian Rieck](https://github.com/Pseudomanifold/latex-cv).
