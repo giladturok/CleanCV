@@ -1,4 +1,4 @@
-# CleanCV: Modern, mimimal, & modular academic LaTeX CV
+# CleanCV: Modern, mimimal, and modular
 
 CleanCV :soap: :scroll: is a Modern, minimal, and modular academic LaTeX CV template. 
 
