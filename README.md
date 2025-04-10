@@ -1,4 +1,4 @@
-# CleanCV :soap: : Modern, mimimal, and modular academic CV
+# CleanCV :soap: : Modern, mimimal, & modular academic CV
 
 CleanCV is a modern, minimal, and modular LaTeX CV template designed specifically for academics, graduate students, and researchers.
 
@@ -34,7 +34,7 @@ CleanCV stands out from other academic templates with:
 - **Automatic name bolding in publications**
 - **Support for joint first author publications**
 
-## Quick Start :rocket:
+## Setup :rocket:
 
 Before adding your info, setup the CleanCV template:
 
@@ -42,15 +42,12 @@ Before adding your info, setup the CleanCV template:
 1. Create a [new Overleaf project](https://www.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf)
 2. Copy the `main.tex`, `cleanCV.sty`, and `publications.bib` files to your Overleaf project
 
-If you have Overleaf premium, you can instead: 
-1. Create a Github template of this repository
-2. Sync your new Github repo (from the template) with Overleaf ([instructions](https://www.overleaf.com/learn/how-to/GitHub_Synchronization#Creating_a_new_Overleaf_project_from_a_GitHub_repository))
-3. Make an project that Sync your Overleaf template with your Github
+If you have Overleaf premium, you can instead use this template to create a new Github repo and sync it directly with Overleaf ([instructions](https://www.overleaf.com/learn/how-to/GitHub_Synchronization#Creating_a_new_Overleaf_project_from_a_GitHub_repository)).
 
 ### Option 2: Use Locally
 1. Install Tex/LaTeX ([get LaTeX](https://www.latex-project.org/get/))
-2. Create a Github template of this repository
-3. Clone your new repository (from the template):
+2. Create a new Github repo by using this template
+3. Clone your new Github repo locally:
    ```bash
    git clone https://github.com/yourusername/CleanCV.git
    ```
