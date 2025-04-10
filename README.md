@@ -1,6 +1,6 @@
 # CleanCV :soap: : Modern, mimimal, & modular academic CV
 
-CleanCV is a modern, minimal, and modular LaTeX CV designed specifically for academics, students, and researchers.
+CleanCV is a modern, minimal, and modular LaTeX CV designed for academics, students, and researchers.
 
 This template prioritizes readability and clean typography while making it easy to maintain and update your CV.
 
