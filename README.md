@@ -8,16 +8,16 @@ This template prioritizes readability and clean typography while making it easy 
 
 CleanCV stands out from other academic templates with:
 
-- **Simple style file** with comments you'll actually understand
+- **Readable and commented style file** you'll actually understand
 - **Exceptional typography** using elegant spacing and ET Book font
-- **Contact bar with icons** supporting personal info and social media
 - **Modular structure** with two main entry types for all content
-- **CV/Resume dual mode** with conditional section display
 - **Easy customization** of colors and style
-- **Automatic last-updated date**
+- **Contact bar with icons** for personal info and social media
+- **CV/Resume dual mode** with conditional section display
 - **BibLaTeX integration** for seamless use with `publications.bib`
 - **Automatic name bolding** for your name in publications
-- **Support for joint first author** annotations
+- **Support for joint first author** annotations in publications
+- **Last-updated date** automatically generated
 
 ## Setup :rocket:
 
@@ -25,29 +25,27 @@ CleanCV stands out from other academic templates with:
 1. Create a [new Overleaf project](https://www.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf)
 2. Copy the `main.tex`, `cleanCV.sty`, and `publications.bib` files to your Overleaf project
 
-If you have Overleaf premium, you can instead use this template to create a new Github repo and sync it directly with Overleaf ([instructions](https://www.overleaf.com/learn/how-to/GitHub_Synchronization#Creating_a_new_Overleaf_project_from_a_GitHub_repository)).
+If you have Overleaf premium, you can instead use this template to create a new Github repo and then sync it directly with Overleaf ([instructions](https://www.overleaf.com/learn/how-to/GitHub_Synchronization#Creating_a_new_Overleaf_project_from_a_GitHub_repository)).
 
 ### Option 2: Use Locally
 1. Install Tex/LaTeX ([get LaTeX](https://www.latex-project.org/get/))
-2. Create a new Github repo by using this template
+2. Use this template to create a new Github repo
 3. Clone your new Github repo locally: `git clone https://github.com/yourusername/CleanCV.git`
 
 ## Philosophy
 
 CleanCV is built around a simple, consistent structure:
 
-1. \textbf{Sections:} Main content divisions (Education, Experience, etc.)
-2. \textbf{Subsections:} Optional subdivisions within sections (e.g., Posters under Talks or Peer Review under Service)
-3. \textbf{Entries:} Individual items in each section using one of two standardized commands
+1. **Sections:** Main content divisions (Education, Experience, etc.)
+2. **Subsections:** Optional subdivisions within sections (e.g., Posters under Talks or Peer Review under Service)
+3. **Entries:** Individual items in each section using one of two standardized commands
 
 Every entry in your CV will use one of two commands, creating a consistent visual hierarchy:
 
 `\cventry`: For primary entries with organization, location, role, date, and optional description (in bullet point form)
-`\cvitem`: For simpler entries with institution, name, and date that is often an item in a bullet-point list
+`\cvitem`: For simpler entries with institution, name, and date
 
 This consistency makes your CV both visually appealing and easy to maintain.
-
-## Usage Guide
 
 ### Basic Content Commands
 
@@ -74,7 +72,7 @@ For entries without bullet points, leave the first argument empty:
 \cvitem{Organization}{Award/Talk Name}{Year}
 ```
 
-### Section Examples
+## Usage Guide :pencil:
 
 #### Education Section
 
@@ -133,6 +131,6 @@ Switch between a comprehensive CV or a condensed resume:
 \cvfalse % Resume with limited sections
 ```
 
-## �� Acknowledgments
+## Acknowledgments :raised_hands:
 
 CleanCV is inspired by various academic CV templates with a focus on simplicity, elegance, and readability.
