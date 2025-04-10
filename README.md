@@ -6,9 +6,9 @@ This CV is designed for academics, students, and researchers in STEM. It priorit
 
 
 <p align="center">
-  <img src="assets/preview_pg1.png" width="33%" />
-  <img src="assets/preview_pg2.png" width="33%" />
-  <img src="assets/preview_pg3.png" width="33%" />
+  <img src="assets/preview_pg1.png" width="47%" />
+  <img src="assets/preview_pg2.png" width="47%" />
+  <img src="assets/preview_pg3.png" width="47%" />
 </p>
 
 ![image1](assets/preview_pg1.png)
