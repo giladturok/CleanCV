@@ -1,29 +1,23 @@
-# CleanCV: A Minimalist Academic CV Template for LaTeX ��
+# CleanCV: Modern, mimimal, and modular :page_facing_up:
 
-A professional, elegant LaTeX template for academic CVs that focuses on content and readability. Perfect for researchers, professors, and graduate students who want to make a strong impression.
+CleanCV is a modern, minimal, and modular LaTeX CV template designed specifically for academics, PhD students, and researchers. This template prioritizes readability and clean typography while making it easy to maintain and update your CV.
 
-![CleanCV Preview](preview.png)
-
-## GitHub Repository Descriptions
-
-- **Main**: "Minimalist LaTeX CV template for academics with clean typography and professional design"
-- **Short**: "Elegant academic CV template with BibLaTeX support"
-- **SEO-friendly**: "Clean LaTeX CV template for researchers, professors, and PhD students"
-
-## ✨ Features
+## Features :sparkles:
 
 CleanCV stands out from other academic templates with:
 
+- **Simple style file** you'll actually understand
 - **Exceptional typography** using elegant ET Book font and proper spacing
-- **Publication-ready design** that academic committees will appreciate
-- **BibLaTeX integration** with automatic name highlighting and joint first-author marking
-- **Flexible structure** with CV/Resume modes to adjust content depth
-- **Hyperlinked content** for digital sharing
 - **Contact bar with icons** for a modern, professional look
-- **Automatic footer** with "Last Updated" date
-- **No dependencies** on complex LaTeX packages
+- **Modular structure** with two main entry types for all content
+- **CV/Resume dual mode** with conditional section display
+- **Easy customization** of colors and style
+- **Automatic last-updated date** so others know how stale your CV is
+- **BibLaTeX integration** for seamless use with `publications.bib`
+- **Automatic name bolding** for your name in publications
+- **Support for joint first author** annotations
 
-## �� Quick Start
+## Quick Start :rocket:
 
 ### Option 1: Use on Overleaf (Recommended)
 1. Create a [new Overleaf project](https://www.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf)
@@ -37,9 +31,24 @@ CleanCV stands out from other academic templates with:
    ```
 
 ### Overleaf + GitHub Integration
-You can [sync Overleaf with GitHub](https://www.overleaf.com/learn/how-to/Git_Integration_and_GitHub_Synchronization) for version control (requires Overleaf premium).
+You can [sync Overleaf with Git or GitHub](https://www.overleaf.com/learn/how-to/Git_Integration_and_GitHub_Synchronization). This would simply the setup, but requires Overleaf premium.
 
-## �� Usage Guide
+## Philosophy
+
+CleanCV is built around a simple, consistent structure:
+
+1. \textbf{Sections:} Main content divisions (Education, Experience, etc.)
+2. \textbf{Subsections:} Optional subdivisions within sections (e.g., Posters under Talks or Peer Review under Service)
+3. \textbf{Entries:} Individual items in each section using one of two standardized commands
+
+Every entry in your CV will use one of two commands, creating a consistent visual hierarchy:
+
+`\cventry`: For primary entries with organization, location, role, date, and optional description (in bullet point form)
+`\cvitem`: For simpler entries with institution, name, and date that is often an item in a bullet-point list
+
+This consistency makes your CV both visually appealing and easy to maintain.
+
+## Usage Guide
 
 ### Basic Content Commands
 
