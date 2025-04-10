@@ -38,64 +38,71 @@ If you have Overleaf premium, you can instead use this template to create a new 
 
 ## Philosophy :bulb:
 
-CleanCV is built around a simple, consistent structure:
+CleanCV is built around a simple, consistent structure that makes your CV both visually appealing and easy to maintain:
 
 1. **Sections:** Main content divisions (Education, Experience, etc.)
-2. **Subsections:** Optional subdivisions within sections (e.g., Posters under Talks or Peer Review under Service)
-3. **Entries:** Individual items in each section using one of two standardized commands
+2. **Subsections:** Optional subdivisions within sections 
+3. **Entries:** Individual items using one of two standardized commands
 
-Every entry in your CV will use one of two commands, creating a consistent visual hierarchy:
+### Entry Types
 
-`\cventry`: For primary entries with organization, location, role, date, and optional description (in bullet point form)
-`\cvitem`: For simpler entries with institution, name, and date
+CleanCV provides two complementary commands for different types of CV entries:
 
-This consistency makes your CV both visually appealing and easy to maintain.
+1. **`\cvdetail`**: For comprehensive entries that require organization details and optional descriptions
+   - Used for major entries like education and work experience
+   - Supports optional bullet points for achievements and responsibilities
+   - Creates a structured, two-line format with organization and location on top, role and dates below
 
-### Basic Content Commands
+2. **`\cvsimple`**: For concise, single-line entries without bullet points
+   - Used for awards, talks, publications, etc.
+   - Creates a compact, single-line format with organization, title, and date
+   - Typically used within itemized lists
 
-CleanCV provides two primary commands for adding content:
-
-#### 1. `\cventry` - For detailed entries (education, experience)
-
-```latex
-\cventry[
-    \item First bullet point about this position
-    \item Second bullet point with accomplishments
-]{Institution/Company}{Location}{Role/Degree}{Year/Date Range}
-```
-
-For entries without bullet points, leave the first argument empty:
-
-```latex
-\cventry{University Name}{City, Country}{Degree Program}{2018-2022}
-```
-
-#### 2. `\cvitem` - For simple entries (awards, talks, etc.)
-
-```latex
-\cvitem{Organization}{Award/Talk Name}{Year}
-```
+This dual-command system creates a consistent visual hierarchy while accommodating different types of CV content.
 
 ## Usage Guide :pencil:
 
-#### Education Section
+### Primary CV Entries (`\cvposition`)
+For major entries like education and experience:
 
 ```latex
-\section*{Education}
+% Syntax:
+\cvposition[<optional bullet points>]{Organization}{Location}{Title}{Period}
 
-\cventry{Princeton University}{Princeton, NJ, USA}{Ph.D. in Physics}{1934-1938}
+% Education example:
+\section*{Education}
+\cvposition{Stanford University}{Stanford, CA}{Ph.D. in Computer Science}{2018-2023}
 \medskip
-\cventry{MIT}{Cambridge, MA}{M.Sc. in Mathematics}{1932-1934}
+\cvposition{MIT}{Cambridge, MA}{B.S. in Computer Science}{2014-2018}
+
+% Experience example with bullet points:
+\section*{Experience}
+\cvposition[
+    \item Developed machine learning algorithms for natural language processing
+    \item Published 3 papers in top-tier conferences
+    \item Mentored 2 junior researchers
+]{Google Research}{Mountain View, CA}{Research Scientist}{2021-Present}
 ```
 
-#### Awards Section
+#### Secondary CV Entries (`\cvitem`)
+For compact entries like awards, talks, and other achievements:
 
 ```latex
-\section*{Awards & Honors}
+% Syntax (used within itemize environment):
+\item \cvitem{Organization}{Title}{Date}
 
+% Awards example:
+\section*{Awards \& Honors}
 \begin{itemize}
-    \item \cvitem{National Science Foundation}{Graduate Research Fellowship}{2023}
-    \item \cvitem{University of Michigan}{Outstanding Thesis Award}{2022}
+    \item \cvitem{ACM SIGCHI}{Best Paper Award}{2023}
+    \item \cvitem{National Science Foundation}{Graduate Research Fellowship}{2021-2024}
+\end{itemize}
+
+% Talks example:
+\section*{Invited Talks}
+\begin{itemize}
+    \item \cvitem{Stanford University}{Machine Learning for Climate Science}{March 2023}
+    \item \cvitem{ACM Conference}{Advances in Natural Language Processing}{December 2022}
 \end{itemize}
 ```
 
@@ -128,7 +135,7 @@ CleanCV automatically integrates with BibLaTeX for publication lists.
 
 ### CV/Resume Mode
 
-Switch between a comprehensive CV or a condensed resume:
+Switch between a comprehensive CV or a condensed resume at the top of `main.tex`:
 
 ```latex
 \cvtrue  % Full CV with all sections
