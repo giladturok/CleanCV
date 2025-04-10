@@ -38,10 +38,10 @@ If you have Overleaf premium, you can instead use this template to create a new 
 
 ## Philosophy :bulb:
 
-CleanCV is built around a simple, consistent structure that makes your CV both visually appealing and easy to maintain:
+CleanCV is built around a simple, consistent structure that makes your CV visually appealing and easy to maintain:
 
 1. **Sections:** Main content divisions (Education, Experience, Publications, etc.)
-2. **Subsections:** Optional subdivisions within sections 
+2. **Subsections:** Optional subdivisions within sections (e.g. Posters under Talks)
 3. **Entries:** Individual items using one of two standardized commands
 
 ### Entry Types
@@ -58,7 +58,7 @@ CleanCV provides two complementary commands for different types of CV entries:
    - Creates a compact, single-line format with organization, title, and date
    - Typically used within itemized lists
 
-This dual-command system creates a consistent visual hierarchy while accommodating different types of CV content.
+This dual-command system creates a consistent visual hierarchy while accommodating varying CV content.
 
 ## Usage Guide :pencil:
 
