@@ -1,6 +1,6 @@
 # CleanCV :soap: : Modern, mimimal, & modular academic CV
 
-CleanCV is a modern, minimal, and modular LaTeX CV template designed specifically for academics, graduate students, and researchers.
+CleanCV is a modern, minimal, and modular LaTeX CV designed specifically for academics, students, and researchers.
 
 This template prioritizes readability and clean typography while making it easy to maintain and update your CV.
 
@@ -46,10 +46,6 @@ If you have Overleaf premium, you can instead use this template to create a new 
 1. Install Tex/LaTeX ([get LaTeX](https://www.latex-project.org/get/))
 2. Create a new Github repo by using this template
 3. Clone your new Github repo locally: `git clone https://github.com/yourusername/CleanCV.git`
-   
-   ```bash
-   git clone https://github.com/yourusername/CleanCV.git
-   ```
 
 ## Philosophy
 
