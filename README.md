@@ -63,7 +63,7 @@ This dual-command system creates a consistent visual hierarchy while accommodati
 ## Usage Guide :pencil:
 
 ### Primary CV Entries (`\cvposition`)
-For major entries like education and experience:
+For major entries like education and experience (each entry is _not_ part of a list):
 
 ```latex
 % Syntax:
@@ -84,7 +84,7 @@ For major entries like education and experience:
 ```
 
 ### Secondary CV Entries (`\cvitem`)
-For compact entries like awards, talks, and other achievements:
+For compact entries like awards, talks, and service (each entry _is_ part of a list):
 
 ```latex
 % Syntax (used within itemize environment):
