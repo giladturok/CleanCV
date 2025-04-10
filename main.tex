@@ -11,7 +11,9 @@
 \usepackage{CleanCV}
 
 % Choose between CV and Resume mode
-\cvtrue  % For full CV (all sections)
+% Resume mode excludes sections enclosed in \ifcv ... \fi
+% \cvtrue  % For CV (all sections)
+\cvfalse % For resume (limited sections)
 
 % Import publications.bib for the bibliography
 \addbibresource{publications.bib}
@@ -35,9 +37,11 @@
 % Research Interests
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\ifcv
 \section*{Research Interests}
 
 Theoretical physics, relativity, quantum mechanics, statistical mechanics, unified field theory
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Education
@@ -89,16 +93,19 @@ Theoretical physics, relativity, quantum mechanics, statistical mechanics, unifi
 % Publications
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\ifcv
 \section*{Publications}
 
 % Publications would be loaded from publications.bib
 \nocite{*}
 \printbibliography[heading=none]
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Awards
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\ifcv
 \section*{Awards \& Honors}
 
 \begin{itemize}
@@ -111,22 +118,26 @@ Theoretical physics, relativity, quantum mechanics, statistical mechanics, unifi
     \item \cvitem{Member}{National Academy of Sciences}{1922}
     \item \cvitem{Member}{American Philosophical Society}{1935}
 \end{itemize}
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Skills
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\ifcv
 \section*{Skills}
 
 \textbf{Theoretical Physics:} Relativity Theory, Quantum Mechanics, Statistical Mechanics, Thermodynamics \\
 \textbf{Mathematics:} Differential Geometry, Non-Euclidean Geometry, Tensor Analysis, Differential Equations \\
 \textbf{Languages:} German (native), English (fluent), French (working proficiency), Italian (basic) \\
 \textbf{Instruments:} Violin (accomplished player)
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Talks and Presentations
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\ifcv
 \section*{Talks \& Presentations}
 
 \begin{itemize}
@@ -137,11 +148,13 @@ Theoretical physics, relativity, quantum mechanics, statistical mechanics, unifi
     \item \cvitem{Columbia University}{The Theory of Relativity}{1921}
     \item \cvitem{King's College London}{The Development of Theoretical Physics}{1921}
 \end{itemize}
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Teaching
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\ifcv
 \section*{Teaching}
 
 \begin{itemize}
@@ -150,11 +163,13 @@ Theoretical physics, relativity, quantum mechanics, statistical mechanics, unifi
     \item \cvitem{ETH Zurich}{Courses in Theoretical Physics}{1912-1914}
     \item \cvitem{University of Zurich}{Lectures on Molecular Physics}{1909-1911}
 \end{itemize}
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Service
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\ifcv
 \section*{Service}
 
 \begin{itemize}
@@ -165,16 +180,19 @@ Theoretical physics, relativity, quantum mechanics, statistical mechanics, unifi
     \item \cvitem{Pugwash Conferences on Science and World Affairs}{Early Advocate and Supporter}{1955}
     \item \cvitem{International Rescue Committee}{Advisory Board}{1933-1955}
 \end{itemize}
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Code & Software
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\ifcv
 \section*{Code \& Software}
 
 \begin{itemize}
     \item \cvitem{\href{https://github.com/einsteinphysics/relativity-simulator}{\texttt{relativity-simulator}}}{creator (simulations of relativistic effects)}{1920-1930}
     \item \cvitem{\href{https://github.com/einsteinphysics/quantum-probability}{\texttt{quantum-probability}}}{developer (statistical models for quantum phenomena)}{1924-1935}
 \end{itemize}
+\fi
 
 \end{document}

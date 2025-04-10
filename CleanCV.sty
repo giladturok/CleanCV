@@ -124,23 +124,23 @@
 % CONTENT FORMATTING COMMANDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Primary entry command for education and experience sections
+% Primary entry for positions with optional bullet points
 % Arguments:
-%   #1: Description in bullet points (optional)
-%   #2: Institution/Company
+%   #1: [Optional] Bullet points (\item statements)
+%   #2: Organization
 %   #3: Location
-%   #4: Role/Degree
-%   #5: Year/Date Range
+%   #4: Title
+%   #5: Date
 \newcommand{\cventry}[5][]{
   \textbf{#2} \hfill #3 \\ #4 \hfill #5 \par
   \ifx&#1&\else\begin{itemize}#1\end{itemize}\fi
 }
 
-% Secondary entry command for awards, talks, software, etc.
+% Simple entry for items without bullet points
 % Arguments:
-%   #1: Institution/Organization
-%   #2: Award/Talk/Software name
-%   #3: Year/Date range
+%   #1: Organization
+%   #2: Title
+%   #3: Date
 \newcommand{\cvitem}[3]{
   #1, #2 \hfill #3
 }
