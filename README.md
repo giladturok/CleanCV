@@ -40,7 +40,7 @@ If you have Overleaf premium, you can instead use this template to create a new 
 
 CleanCV is built around a simple, consistent structure that makes your CV both visually appealing and easy to maintain:
 
-1. **Sections:** Main content divisions (Education, Experience, etc.)
+1. **Sections:** Main content divisions (Education, Experience, Publications, etc.)
 2. **Subsections:** Optional subdivisions within sections 
 3. **Entries:** Individual items using one of two standardized commands
 
@@ -54,7 +54,7 @@ CleanCV provides two complementary commands for different types of CV entries:
    - Creates a structured, two-line format with organization and location on top, role and dates below
 
 2. **`\cvsimple`**: For concise, single-line entries without bullet points
-   - Used for awards, talks, publications, etc.
+   - Used for awards, talks, service, etc.
    - Creates a compact, single-line format with organization, title, and date
    - Typically used within itemized lists
 
@@ -67,7 +67,7 @@ For major entries like education and experience:
 
 ```latex
 % Syntax:
-\cvposition[<optional bullet points>]{Organization}{Location}{Title}{Period}
+\cvposition[<optional bullet points>]{Organization}{Location}{Title}{Date}
 
 % Education example:
 \section*{Education}
@@ -80,11 +80,10 @@ For major entries like education and experience:
 \cvposition[
     \item Developed machine learning algorithms for natural language processing
     \item Published 3 papers in top-tier conferences
-    \item Mentored 2 junior researchers
 ]{Google Research}{Mountain View, CA}{Research Scientist}{2021-Present}
 ```
 
-#### Secondary CV Entries (`\cvitem`)
+### Secondary CV Entries (`\cvitem`)
 For compact entries like awards, talks, and other achievements:
 
 ```latex
@@ -110,7 +109,7 @@ For compact entries like awards, talks, and other achievements:
 
 CleanCV automatically integrates with BibLaTeX for publication lists.
 
-1. Make your name bold in the bibliography:
+1. Make your name bold in the bibliography: ```{YourLastName}{YourFirstName}{Optional Middle Initial}```
    ```latex
    \boldname{YourLastName}{YourFirstName}{Y}
    ```
@@ -124,13 +123,6 @@ CleanCV automatically integrates with BibLaTeX for publication lists.
      year={2023},
      annote={jointfirst}
    }
-   ```
-
-3. Display your bibliography:
-   ```latex
-   \section*{Publications}
-   \nocite{*}
-   \printbibliography[heading=none]
    ```
 
 ### CV/Resume Mode
