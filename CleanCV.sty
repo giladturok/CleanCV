@@ -163,6 +163,7 @@
 \boldname{}{}{}
 
 % Implementation of name bolding in bibliography
+% See https://tex.stackexchange.com/a/327046
 \renewcommand{\mkbibnamegiven}[1]{%
   \ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
   {\mkbibbold{#1}}{#1}%
@@ -174,6 +175,7 @@
 
 % Adds asterisk for joint first authors
 % Use the 'jointfirst' annotation in your .bib file
+% See https://tex.stackexchange.com/a/699794
 \renewcommand*{\mkbibcompletename}[1]{%
   \ifitemannotation{jointfirst}
     {#1^*}       % Name* (if joint first author)

@@ -8,31 +8,16 @@ This template prioritizes readability and clean typography while making it easy 
 
 CleanCV stands out from other academic templates with:
 
-- **Simple style file** you'll actually understand
-- **Exceptional typography** using elegant ET Book font and proper spacing
-- **Contact bar with icons** for a modern, professional look
+- **Simple style file** with comments you'll actually understand
+- **Exceptional typography** using elegant spacing and ET Book font
+- **Contact bar with icons** supporting personal info and social media
 - **Modular structure** with two main entry types for all content
 - **CV/Resume dual mode** with conditional section display
 - **Easy customization** of colors and style
-- **Automatic last-updated date** so others know how stale your CV is
+- **Automatic last-updated date**
 - **BibLaTeX integration** for seamless use with `publications.bib`
 - **Automatic name bolding** for your name in publications
 - **Support for joint first author** annotations
-
-## Features :sparkles:
-
-CleanCV stands out from other academic templates with:
-
-- **Simple, readable style file**
-- **Exceptional typography**
-- **Contact bar with personal info and social media**
-- **Modular structure**
-- **CV/Resume dual mode**
-- **Easy color and style customization**
-- **Automatic last-updated date**
-- **BibLaTeX integration**
-- **Automatic name bolding in publications**
-- **Support for joint first author publications**
 
 ## Setup :rocket:
 
