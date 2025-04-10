@@ -1,135 +1,130 @@
-# HogwartsCV: A Clean Academic CV Template for LaTeX ��
+# CleanCV: A Minimalist Academic CV Template for LaTeX ��
 
-HogwartsCV is a minimalist, elegant LaTeX template for academic CVs and resumes designed for researchers, professors, and graduate students.
+A professional, elegant LaTeX template for academic CVs that focuses on content and readability. Perfect for researchers, professors, and graduate students who want to make a strong impression.
 
-![HogwartsCV Preview](preview.png)
+![CleanCV Preview](preview.png)
+
+## GitHub Repository Descriptions
+
+- **Main**: "Minimalist LaTeX CV template for academics with clean typography and professional design"
+- **Short**: "Elegant academic CV template with BibLaTeX support"
+- **SEO-friendly**: "Clean LaTeX CV template for researchers, professors, and PhD students"
 
 ## ✨ Features
 
-- **Clean, professional design** with focus on readability and content
-- **Customizable primary color** to match your personal brand
-- **Comprehensive sections** for academic profiles:
-  - Research interests
-  - Education
-  - Experience
-  - Publications (with BibLaTeX integration)
-  - Awards & honors
-  - Skills
-  - Talks & presentations
-  - Teaching
-  - Service
-  - Code & software projects
-- **Dual modes**: Full CV mode (all sections) or Resume mode (limited sections)
-- **Contact bar** with professional links and location
-- **Bold name highlighting** in publication lists
-- **Joint first-author** marking with asterisks
-- **Elegant typography** using ET Book font
-- **Hyperlinked content** for easy navigation
-- **Automatic "Last Updated" date** in footer
+CleanCV stands out from other academic templates with:
 
-## �� Requirements
-
-- A LaTeX distribution (TeXLive, MiKTeX, etc.)
-- LuaLaTeX or XeLaTeX compiler (recommended)
-- BibLaTeX and Biber (for bibliography)
+- **Exceptional typography** using elegant ET Book font and proper spacing
+- **Publication-ready design** that academic committees will appreciate
+- **BibLaTeX integration** with automatic name highlighting and joint first-author marking
+- **Flexible structure** with CV/Resume modes to adjust content depth
+- **Hyperlinked content** for digital sharing
+- **Contact bar with icons** for a modern, professional look
+- **Automatic footer** with "Last Updated" date
+- **No dependencies** on complex LaTeX packages
 
 ## �� Quick Start
 
-1. Clone this repository:
+### Option 1: Use on Overleaf (Recommended)
+1. Create a [new Overleaf project](https://www.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf)
+2. Copy the `main.tex`, `cleanCV.sty`, and `publications.bib` files to your project
+
+### Option 2: Use Locally
+1. Ensure you have LaTeX installed ([Get LaTeX](https://www.latex-project.org/get/))
+2. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/HogwartsCV.git
+   git clone https://github.com/yourusername/CleanCV.git
    ```
 
-2. Copy `HogwartsCV.sty` to your project directory or LaTeX path
-
-3. Create your CV based on the template:
-   ```latex
-   \documentclass[letterpaper,11pt]{article}
-   \usepackage{HogwartsCV}
-   
-   % Choose between CV and Resume mode
-   \cvtrue  % For full CV (all sections)
-   % \cvfalse % For Resume (limited sections)
-   
-   % Import your publications
-   \addbibresource{publications.bib}
-   
-   \begin{document}
-   
-   % Your name
-   \cvname{Your Name}
-   
-   % Make your name bold in bibliography
-   \boldname{LastName}{FirstName}{FirstInitial}
-   
-   % Contact information
-   \contactbar{your.website.com}{email@example.com}{github-username}{linkedin-username}{https://scholar.google.com/citations?user=YOUR_ID}{Your Location}
-   
-   % Rest of your CV...
-   
-   \end{document}
-   ```
-
-4. Compile with LuaLaTeX or XeLaTeX:
-   ```bash
-   lualatex your_cv.tex
-   biber your_cv
-   lualatex your_cv.tex
-   ```
+### Overleaf + GitHub Integration
+You can [sync Overleaf with GitHub](https://www.overleaf.com/learn/how-to/Git_Integration_and_GitHub_Synchronization) for version control (requires Overleaf premium).
 
 ## �� Usage Guide
 
-### Contact Bar
+### Basic Content Commands
 
-The contact bar displays your professional information with icons:
+CleanCV provides two primary commands for adding content:
 
-```latex
-\contactbar{website}{email}{github}{linkedin}{google-scholar-url}{location}
-```
-
-### Education & Experience Entries
-
-Use the `\cventry` command for education and experience entries:
+#### 1. `\cventry` - For detailed entries (education, experience)
 
 ```latex
 \cventry[
-    \item First bullet point
-    \item Second bullet point
+    \item First bullet point about this position
+    \item Second bullet point with accomplishments
 ]{Institution/Company}{Location}{Role/Degree}{Year/Date Range}
 ```
 
-Leave the first argument empty for entries without bullet points.
+For entries without bullet points, leave the first argument empty:
 
-### Awards, Talks, etc.
+```latex
+\cventry{University Name}{City, Country}{Degree Program}{2018-2022}
+```
 
-Use the `\cvitem` command for simple entries:
+#### 2. `\cvitem` - For simple entries (awards, talks, etc.)
 
 ```latex
 \cvitem{Organization}{Award/Talk Name}{Year}
 ```
 
-### Bibliography
+### Section Examples
 
-1. Create a `publications.bib` file with your publications
-2. Make your name bold in the bibliography:
+#### Education Section
+
+```latex
+\section*{Education}
+
+\cventry{Princeton University}{Princeton, NJ, USA}{Ph.D. in Physics}{1934-1938}
+\medskip
+\cventry{MIT}{Cambridge, MA}{M.Sc. in Mathematics}{1932-1934}
+```
+
+#### Awards Section
+
+```latex
+\section*{Awards & Honors}
+
+\begin{itemize}
+    \item \cvitem{National Science Foundation}{Graduate Research Fellowship}{2023}
+    \item \cvitem{University of Michigan}{Outstanding Thesis Award}{2022}
+\end{itemize}
+```
+
+### Bibliography Management
+
+CleanCV automatically integrates with BibLaTeX for publication lists.
+
+1. Make your name bold in the bibliography:
    ```latex
    \boldname{YourLastName}{YourFirstName}{Y}
    ```
-3. Mark joint first-authors with the `jointfirst` annotation in your BibTeX entries
+
+2. Mark joint first-authors in your .bib file:
+   ```
+   @article{keyname,
+     title={Paper Title},
+     author={Your Name and Colleague Name},
+     journal={Journal Name},
+     year={2023},
+     annote={jointfirst}
+   }
+   ```
+
+3. Display your bibliography:
+   ```latex
+   \section*{Publications}
+   \nocite{*}
+   \printbibliography[heading=none]
+   ```
 
 ### CV/Resume Mode
 
-Choose between full CV or condensed resume:
+Switch between a comprehensive CV or a condensed resume:
 
 ```latex
 \cvtrue  % Full CV with all sections
 \cvfalse % Resume with limited sections
 ```
 
-## �� License
-
-This template is available under the MIT License. See the LICENSE file for details.
-
 ## �� Acknowledgments
 
-HogwartsCV is inspired by various academic CV templates with a focus on simplicity, elegance, and readability.
+CleanCV is inspired by various academic CV templates with a focus on simplicity, elegance, and readability.
