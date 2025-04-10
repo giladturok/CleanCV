@@ -1,6 +1,8 @@
 # CleanCV: Modern, mimimal, and modular :page_facing_up:
 
-CleanCV is a modern, minimal, and modular LaTeX CV template designed specifically for academics, PhD students, and researchers. This template prioritizes readability and clean typography while making it easy to maintain and update your CV.
+CleanCV is a modern, minimal, and modular LaTeX CV template designed specifically for academics, graduate students, and researchers.
+
+This template prioritizes readability and clean typography while making it easy to maintain and update your CV.
 
 ## Features :sparkles:
 
@@ -17,14 +19,31 @@ CleanCV stands out from other academic templates with:
 - **Automatic name bolding** for your name in publications
 - **Support for joint first author** annotations
 
+## Features :sparkles:
+
+CleanCV stands out from other academic templates with:
+
+- **Simple, readable style file**
+- **Exceptional typography**
+- **Contact bar with personal info and social media**
+- **Modular structure**
+- **CV/Resume dual mode**
+- **Easy color and style customization**
+- **Automatic last-updated date**
+- **BibLaTeX integration**
+- **Automatic name bolding in publications**
+- **Support for joint first author publications**
+
 ## Quick Start :rocket:
+
+Before adding your info, setup the CleanCV template:
 
 ### Option 1: Use on Overleaf (Recommended)
 1. Create a [new Overleaf project](https://www.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf)
 2. Copy the `main.tex`, `cleanCV.sty`, and `publications.bib` files to your project
 
 ### Option 2: Use Locally
-1. Ensure you have LaTeX installed ([Get LaTeX](https://www.latex-project.org/get/))
+1. Install Tex/LaTeX ([Get LaTeX](https://www.latex-project.org/get/))
 2. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/CleanCV.git
