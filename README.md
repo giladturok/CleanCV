@@ -1,4 +1,4 @@
-# CleanCV :soap: : Modern, mimimal, & modular academic CV
+# CleanCV :soap: :scroll: : Modern, mimimal, & modular academic CV
 
 CleanCV is a modern, minimal, and modular LaTeX CV designed for academics, students, and researchers.
 
@@ -109,7 +109,7 @@ For compact entries like awards, talks, and other achievements:
 
 CleanCV automatically integrates with BibLaTeX for publication lists.
 
-1. Make your name bold in the bibliography: ```\boldname{YourLastName}{YourFirstName}{Optional Middle Initial}```
+1. Make your name bold in the bibliography:
    ```latex
    \boldname{YourLastName}{YourFirstName}{Y}
    ```
