@@ -1,6 +1,6 @@
-# CleanCV: Modern, mimimal, and modular
+# CleanCV :soap: :scroll: : Modern, mimimal, and modular
 
-CleanCV :soap: :scroll: is a Modern, minimal, and modular academic LaTeX CV template. 
+CleanCV is a modern, minimal, and modular academic LaTeX CV template. 
 
 This CV is designed for academics, students, and researchers. It prioritizes readability, ease-of-use, clean design, and typography.
 
