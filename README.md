@@ -128,7 +128,7 @@ CleanCV automatically integrates with BibLaTeX for publication lists. Additional
    \boldname{YourLastName}{YourFirstName}{Y}
    ```
 
-2. Mark joint first-authors in your `publications.bib` file:
+2. Mark joint first-authors in your `publications.bib` file with `annote={jointfirst}`:
    ```
    @article{keyname,
      title={Paper Title},
@@ -152,7 +152,7 @@ The sections excluded from the resume are those wrapped in `\ifcv ... \fi` brace
 
 ```latex
 \ifcv
-\section{*Talks \& Presentations}
+\section{*Talks \& Presentations} % Excluded from resume
 ...
 \fi
 ```
