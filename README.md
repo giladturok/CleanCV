@@ -125,7 +125,7 @@ CleanCV automatically integrates with BibLaTeX for publication lists. Additional
 
 1. Make your name bold in the bibliography at the top of `main.tex`:
    ```latex
-   \boldname{YourLastName}{YourFirstName}{Y}
+   \boldname{YourLastName}{YourFirstName}{OptionalMiddleInitial}
    ```
 
 2. Mark joint first-authors in your `publications.bib` file with `annote={jointfirst}`:
