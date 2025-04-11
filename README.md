@@ -2,9 +2,7 @@
 
 CleanCV is a modern, minimal, and modular academic LaTeX CV template. 
 
-This CV is designed for academics, students, and researchers in STEM. It prioritizes readability, ease-of-use, clean design, and typography. It contains everything you need and nothing you don't.
-
-See the example CV -- the first two pages are previewed below:
+This CV is designed for academics, students, and researchers in STEM. It prioritizes readability, ease-of-use, clean design, and typography. It contains everything you need and nothing you don't. See the example CV:
 
 <p align="center">
   <img src="assets/preview_pg1.svg" width="47%" />
