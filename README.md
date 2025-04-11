@@ -2,7 +2,7 @@
 
 CleanCV is a modern, minimal, and modular academic LaTeX CV template. 
 
-This CV is designed for academics, students, and researchers in STEM. It prioritizes readability, ease-of-use, clean design, and typography. See the example CV and resume -- the first two pages are previewed below:
+This CV is designed for academics, students, and researchers in STEM. It prioritizes readability, ease-of-use, clean design, and typography. See the example CV -- the first two pages are previewed below:
 
 <p align="center">
   <img src="assets/preview_pg1.svg" width="47%" />
@@ -139,12 +139,14 @@ CleanCV automatically integrates with BibLaTeX for publication lists. Additional
 
 ### CV/Resume Mode
 
-Switch between a comprehensive CV or a condensed resume at the top of `main.tex`:
+Switch between a comprehensive CV or a condensed resume by commenting out a line at the top of `main.tex`:
 
 ```latex
-\cvtrue  % Full CV with all sections
-\cvfalse % Resume with limited sections
+\cvtrue  % Full CV (all sections)
+% \cvfalse % Resume (limited sections)
 ```
+
+The sections included in the resume are determined 
 
 ## Acknowledgments :raised_hands:
 
