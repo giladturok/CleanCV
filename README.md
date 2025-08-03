@@ -2,11 +2,7 @@
 
 **Modern, minimal, and modular LaTeX CV template**
 
-CleanCV is designed for academics, graduate students, and researchers, primarily in STEM. It prioritizes readability, ease-of-use, clean design, and exceptional typography. Contains everything you need and nothing you don't.
-
-Most academic CV templates are overcomplicated or ugly. CleanCV gives you professional typography, simple commands, clean design, and standout features — so you can focus on your research, not formatting.
-
-CleanCV is different.
+Most academic CV templates are overcomplicated or ugly. CleanCV gives you professional typography, clean design, enhanced readability, and advanced features — so you can focus on your research, not formatting.
 
 ![CleanCV Example](example_cv.pdf)
 
@@ -22,21 +18,21 @@ CleanCV is different.
 
 ## Features
 
-**:book: Professional Typography**: ET Book font with carefully optimized spacing for maximum readability
+- **:book: Professional Typography**: ET Book font with carefully optimized spacing for maximum readability
 
-**:art: Easy Customization**: Change colors, sections, and styling without breaking anything
+- **:wrench: Easy Customization**: Change colors, sections, and styling without breaking anything
 
-**:books: Smart Publications**: Your `.bib` file automatically becomes a formatted publication list with your name highlighted in bold and joint first-authors marked with an asterisk (*)
+- **:books: Smart Publications**: Your `.bib` file automatically becomes a formatted publication list with your name highlighted in bold and joint first-authors marked with an asterisk (*)
 
-**:memo: Commented Style File**: `CleanCV.sty` is well-commented for easy understanding and modification
+- **:memo: Commented Style File**: `CleanCV.sty` is well-commented for easy understanding and modification
 
-**:email: Contact Integration**: Professional contact bar with icons for email, GitHub, LinkedIn, Google Scholar
+- **:bust_in_silhouette: Contact Integration**: Professional contact bar with icons for email, GitHub, LinkedIn, Google Scholar
 
-**:page_facing_up: CV/Resume Dual Mode**: Generate both comprehensive CVs and condensed resumes from the same document
+- **:arrows_counterclockwise: CV/Resume Dual Mode**: Generate both comprehensive CVs and condensed resumes from the same document
 
-**:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — that's all you need to learn
+- **:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — that's all you need to learn
 
-**:clock10: Last-updated Date**: automatically generates last-updated date
+- **:clock10: Last-updated Date**: automatically generates last-updated date
 
 ## How It Works
 
