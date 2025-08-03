@@ -109,35 +109,6 @@ Instead of one-size-fits-all formatting, CleanCV lets you choose the right comma
 \textbf{Tools:} Git, Docker, Slurm, LaTeX
 ```
 
-### When to Use Each Command
-
-CleanCV gives you flexibility to format content appropriately rather than forcing everything into the same template. The key is matching the command to the type of information:
-
-**`\cvblock`** is for entries that need prominence and detail — your major positions, degrees, and projects. These typically have multiple pieces of information (institution, location, title, dates) and often include bullet points describing your accomplishments.
-
-**`\cvitem`** is for list entries where you want consistent, clean formatting — awards, talks, or service roles. These work well in a list where each item has a brief description and a date or location aligned to the right.
-
-**Plain text** works best for simple content like research interests, skill lists, or short statements that don't need special formatting.
-
-The goal is natural structure: important entries get `\cvblock` treatment, list items get `\cvitem` formatting, and everything else stays as readable text.
-
-> [!TIP]
-> When in doubt, ask: "Does this entry need bullet points or multiple lines?" If yes, use `\cvblock`. If it's a single line in a list, use `\cvitem`. If it's just text, use neither.
-
-```latex
-% Good - use commands for structured entries
-\section*{Awards}
-\begin{itemize}
-    \cvitem{Best Paper Award}{ICML 2023}{June 2023}
-\end{itemize}
-
-% Also good - plain text for skills  
-\section*{Technical Skills}
-\textbf{Programming:} Python, R, MATLAB, C++ \\
-\textbf{ML Frameworks:} PyTorch, TensorFlow, Scikit-learn \\
-\textbf{Tools:} Git, Docker, Slurm, LaTeX
-```
-
 ## Customize
 
 ### Manage CV Sections
