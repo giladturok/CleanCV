@@ -214,24 +214,18 @@ Researchers worldwide use CleanCV for their academic profiles. See examples: [Gi
 
 ## Create Your Own Repository
 
-The link in the [quick start](#quick-start) section creates a new Overleaf project. Instead, if you want CleanCV in your own Github repo with version control, follow these steps:
+**Want version control?** Create your own GitHub repo instead of just using Overleaf:
 
-### **Step 1: Create repository from template**  
-Go to the [CleanCV repository](https://github.com/giladturok/CleanCV) and click the green **"Use this template"** button at the top of the page. This creates your own copy of CleanCV in your GitHub account.
+1. **Use template** — Click **"Use this template"** on the [CleanCV repository](https://github.com/giladturok/CleanCV) to create your own copy
 
-### **Step 2: Edit your `.tex` files**  
-Choose how you want to edit your files:
-
-- **Edit locally**: Clone your new repository and use any LaTeX editor  
-  ```bash
-  git clone https://github.com/yourusername/your-cv-repo.git
-  cd your-cv-repo
-  # Edit main.tex and publications.bib
-  pdflatex main.tex && biber main && pdflatex main.tex
-  ```
-
-- **Edit in Overleaf**: Copy the `main.tex`, `publications.bib`, and `CleanCV.sty` files into a new Overleaf project. You can sync changes with Overleaf's GitHub integration, documented [here](https://www.overleaf.com/learn/how-to/GitHub_Synchronization) (Overleaf premium is required).
-
+2. **Edit your files:**
+   - **Locally:** Clone and edit with any LaTeX editor
+     ```bash
+     git clone https://github.com/yourusername/your-cv-repo.git
+     # Edit main.tex and publications.bib, then compile
+     ```
+   - **Overleaf:** Manually copy files to new project, optionally sync with [GitHub integration](https://www.overleaf.com/learn/how-to/GitHub_Synchronization) (premium required)
+   - 
 ## Acknowledgments
 
 CleanCV is heavily adapted from LaTeX CV templates by [Bastian Rieck](https://github.com/Pseudomanifold/latex-cv) and [Corey Stephan](https://github.com/historical-theology/cv). Please check out their work.
