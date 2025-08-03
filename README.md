@@ -93,9 +93,6 @@ Instead of one-size-fits-all formatting, CleanCV lets you choose the right comma
 - **`\cvitem`**: List entries (awards, talks, service)  
 - **Plain text**: Simple content (skills, interests)
 
-> [!TIP]
-> When in doubt: Need bullet points or multiple lines? Use `\cvblock`. Single line in a list? Use `\cvitem`. Just text? Use neither.
-
 ```latex
 % List entries
 \section*{Awards}
@@ -108,6 +105,9 @@ Instead of one-size-fits-all formatting, CleanCV lets you choose the right comma
 \textbf{Programming:} Python, R, MATLAB, C++ \\
 \textbf{Tools:} Git, Docker, Slurm, LaTeX
 ```
+
+> [!TIP]
+> When in doubt: Need bullet points or multiple lines? Use `\cvblock`. Single line in a list? Use `\cvitem`. Just text? Use neither.
 
 ## Customize
 
