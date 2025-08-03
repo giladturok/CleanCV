@@ -1,15 +1,21 @@
-# CleanCV :soap: :sparkles:
+# CleanCV :sparkles: :page_facing_up:
 
 **Modern, minimal, and modular LaTeX CV template for academics**
 
-CleanCV is designed for academics, graduate students, and researchers in STEM. It prioritizes readability, ease-of-use, clean design, and exceptional typography. Contains everything you need and nothing you don't.
+CleanCV is designed for academics, graduate students, and researchers, primarily in STEM. It prioritizes readability, ease-of-use, clean design, and exceptional typography. Contains everything you need and nothing you don't.
+
+> [!TIP]
+> **[:star: Star CleanCV on GitHub](https://github.com/giladturok/CleanCV)** to help others discover this template!
 
 ## Quick Start
 
-### 1. Open in Overleaf
-**[Create your CV in Overleaf](https://www.overleaf.com/docs?snip_uri=https://github.com/giladturok/CleanCV/archive/main.zip)** *(opens instantly, no downloads needed)*
+### Step 1: Open in Overleaf
+**[Create your CV instantly in Overleaf →](https://www.overleaf.com/docs?snip_uri=https://github.com/giladturok/CleanCV/archive/main.zip)**  
+*This link opens a new Overleaf project with CleanCV pre-loaded. No downloads or setup required!*
 
-### 2. Add Your Information
+*For setting up your own GitHub repository with version control, see the [Create Your Own Repository](#create-your-own-repository) section below.*
+
+### Step 2: Add Your Information
 Replace the example content in `main.tex` with your own information and `publications.bib` with your publication list. Here's a quick example:
 
 ```latex
@@ -27,26 +33,26 @@ Replace the example content in `main.tex` with your own information and `publica
 ]{Institution Name}{Location}{Your Position}{Years}
 ```
 
-### 3. Compile and Download
+### Step 3: Compile and Download
 Click "Recompile" in Overleaf → Download PDF → Done!
 
 ## Features
 
-**�� Professional Typography**: ET Book font with carefully optimized spacing for maximum readability
+**:book: Professional Typography**: ET Book font with carefully optimized spacing for maximum readability
 
-**�� Easy Customization**: Change colors, sections, and styling without breaking anything
+**:art: Easy Customization**: Change colors, sections, and styling without breaking anything
 
-**�� Smart Publications**: Your `.bib` file automatically becomes a formatted publication list with your name highlighted in bold and co-first authors marked with an asterisk (*)
+**:books: Smart Publications**: Your `.bib` file automatically becomes a formatted publication list with special formatting features
 
-**�� Commented Style File**: `CleanCV.sty` is well-commented for easy understanding and modification
+**:memo: Commented Style File**: `CleanCV.sty` is well-commented for easy understanding and modification
 
-**�� Contact Integration**: Professional contact bar with icons for email, GitHub, LinkedIn, Google Scholar
+**:email: Contact Integration**: Professional contact bar with icons for email, GitHub, LinkedIn, Google Scholar
 
-**�� Dual Mode**: Generate both comprehensive CVs and condensed resumes from the same document
+**:page_facing_up: Dual Mode**: Generate both comprehensive CVs and condensed resumes from the same document
 
-**⚡ Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — that's all you need to learn
+**:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — that's all you need to learn
 
-**��️ Last-updated Date**: automatically generates last-updated date
+**:clock10: Last-updated Date**: automatically generates last-updated date
 
 ## How It Works
 
@@ -95,14 +101,19 @@ Awards & Honors
 ```
 
 ### When to Use Each Command
-`\cvblock` and `\cvitem` handle most CV content, but not everything. Use your judgment:
 
-**Use the commands for:**
-- Education, experience, awards, talks, service, publications
+CleanCV gives you flexibility to format content appropriately rather than forcing everything into the same template. The key is matching the command to the type of information:
 
-**Don't use commands for:**
-- Research interests, technical skills, brief personal statements
-- Simple text paragraphs or comma-separated lists
+**`\cvblock`** is for entries that need prominence and detail — your major positions, degrees, and projects. These typically have multiple pieces of information (institution, location, title, dates) and often include bullet points describing your accomplishments.
+
+**`\cvitem`** is for list entries where you want consistent, clean formatting — awards, talks, or service roles. These work well in a list where each item has a brief description and a date or location aligned to the right.
+
+**Plain text** works best for simple content like research interests, skill lists, or short statements that don't need special formatting.
+
+The goal is natural structure: important entries get `\cvblock` treatment, list items get `\cvitem` formatting, and everything else stays as readable text.
+
+> [!TIP]
+> When in doubt, ask: "Does this entry need bullet points or multiple lines?" If yes, use `\cvblock`. If it's a single line in a list, use `\cvitem`. If it's just text, use neither.
 
 ```latex
 % Good - use commands for structured entries
@@ -174,9 +185,11 @@ Generate different versions by editing the top of `main.tex`:
 Wrap optional sections in conditional blocks:
 ```latex
 \ifcv
+% Everything between \ifcv and \fi only appears when \cvtrue is set
+% Use this to hide detailed sections in resume mode
 \section*{Teaching Experience}  % Only appears in CV mode
 \cvblock{Course Name}{University}{Instructor}{Semester}
-\fi
+\fi  % Ends the conditional block
 ```
 
 ### Customize Contact Bar
@@ -189,16 +202,18 @@ Modify the contact bar by editing icons or removing sections in `main.tex`:
 \contactbar{yoursite.com}{you@email.com}{}{linkedin}{}{Your City}
 ```
 
-### Your Publications, Automatically
-CleanCV uses BibLaTeX to manage your publication list with two special features:
-
-**Name Highlighting**: Your name appears bold in every publication
+### Name Highlighting in Publications
+Your name appears bold in every publication automatically:
 ```latex
 % In main.tex - must match your name exactly in .bib file
 \boldname{YourLast}{YourFirst}{Initial}
 ```
 
-**Joint First Authors**: Mark co-first author papers with asterisks
+> [!IMPORTANT]
+> The name in `\boldname{}` must match exactly how your name appears in your `.bib` file, including capitalization and any middle initials.
+
+### Joint First Author Annotations
+Mark co-first author papers with asterisks:
 ```latex
 % In publications.bib - add this annotation
 @article{yourpaper2023,
@@ -212,29 +227,36 @@ CleanCV uses BibLaTeX to manage your publication list with two special features:
 
 ## User Gallery
 
-CleanCV is used by researchers and academics worldwide. Here are some examples:
+Researchers worldwide use CleanCV for their academic profiles. See examples: [Gilad Turok](https://giladturok.com/cv), [Jane Doe](https://janedoe.com/cv), [John Smith](https://johnsmith.com/cv).
 
-- [Gilad Turok](https://giladturok.com/cv) - Computer Vision Researcher
-- [Jane Doe](https://janedoe.com/cv) - Machine Learning Engineer
-- [John Smith](https://johnsmith.com/cv) - Data Scientist
+**Using CleanCV?** We'd love to feature you! [Open an issue](https://github.com/giladturok/CleanCV/issues) with a link to your CV and we'll add you to our gallery.
 
-**Using CleanCV for your CV?** We'd love to feature you! [Open an issue](https://github.com/giladturok/CleanCV/issues) with a link to your CV (or a screenshot) and we'll add you to our gallery. 
+## Create Your Own Repository
 
-*Don't forget to [⭐ star the repo](https://github.com/giladturok/CleanCV) to help others discover CleanCV!*
+**Want version control and your own GitHub repo?** Follow these two steps:
 
-## Advanced Usage
+### **Step 1: Create repository from template**  
+Go to the [CleanCV repository](https://github.com/giladturok/CleanCV) and click the green **"Use this template"** button at the top of the page. This creates your own copy of CleanCV in your GitHub account.
 
-**Want more control?** Clone the repository locally to:
-- Use with your preferred LaTeX editor
-- Track changes with Git  
-- Customize the style file extensively
+### **Step 2: Edit your `.tex` files**  
+Choose how you want to edit your CV files:
 
-```bash
-git clone https://github.com/giladturok/CleanCV.git
-cd CleanCV
-pdflatex main.tex && biber main && pdflatex main.tex
-```
+- **Edit locally**: Clone your new repository and use any LaTeX editor  
+  ```bash
+  git clone https://github.com/yourusername/your-cv-repo.git
+  cd your-cv-repo
+  # Edit main.tex and publications.bib
+  pdflatex main.tex && biber main && pdflatex main.tex
+  ```
+
+- **Edit in Overleaf**: Import your repository into Overleaf by updating then visiting the URL
+
+  `https://www.overleaf.com/docs?snip_uri=https://github.com/yourusername/your-repo/archive/main.zip`
+
+    or by simply copying the files into a new Overleaf project. You can sync changes with Overleaf's GitHub integration (requires Overleaf premium).
+
+For more GitHub-Overleaf integration details, see [here](https://www.overleaf.com/learn/how-to/GitHub_Synchronization). For more details on how the above URL automatically creates a new Overleaf project, see [here](https://www.overleaf.com/devs).
 
 ## Acknowledgments
 
-CleanCV builds upon excellent foundational work by [Dr. Bastian Rieck](https://github.com/Pseudomanifold/latex-cv) and [Dr. Corey Stephan](https://github.com/historical-theology/cv), enhanced for modern academic workflows with improved usability and maintainability.
+CleanCV is heavily adapted from LaTeX CV templates by [Bastian Rieck](https://github.com/Pseudomanifold/latex-cv) and [Corey Stephan](https://github.com/historical-theology/cv). Please check out their work.
