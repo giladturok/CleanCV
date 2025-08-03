@@ -16,7 +16,7 @@ See a preview of the example CV (*content generated with Claude*):
 
 ## Quick Start
 
-1. **[Create your CV instantly in Overleaf](https://www.overleaf.com/docs?snip_uri=https://github.com/giladturok/CleanCV/archive/main.zip)** — Opens a new project with CleanCV pre-loaded
+1. **[Create your CV instantly in Overleaf](https://www.overleaf.com/docs?snip_uri=https://github.com/giladturok/CleanCV/archive/main.zip)** — Click to open a new project with CleanCV pre-loaded
 2. **Replace example content** — Update `main.tex` with your information and `publications.bib` with your publication list
 
 *To set up your own GitHub repository with version control, see the [Create Your Own Repository](#create-your-own-repository) section below.*
