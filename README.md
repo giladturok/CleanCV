@@ -219,13 +219,13 @@ Researchers worldwide use CleanCV for their academic profiles. See examples: [Gi
 
 ## Create Your Own Repository
 
-**Want version control and your own GitHub repo?** Follow these two steps:
+The link in the [quick start](#quick-start) section creates a new Overleaf project. Instead, if you want CleanCV in your own Github repo with version control, follow these steps:
 
 ### **Step 1: Create repository from template**  
 Go to the [CleanCV repository](https://github.com/giladturok/CleanCV) and click the green **"Use this template"** button at the top of the page. This creates your own copy of CleanCV in your GitHub account.
 
 ### **Step 2: Edit your `.tex` files**  
-Choose how you want to edit your CV files:
+Choose how you want to edit your files:
 
 - **Edit locally**: Clone your new repository and use any LaTeX editor  
   ```bash
@@ -235,14 +235,7 @@ Choose how you want to edit your CV files:
   pdflatex main.tex && biber main && pdflatex main.tex
   ```
 
-- **Edit in Overleaf**: Import your repository into Overleaf by updating then visiting the URL
-
-  `https://www.overleaf.com/docs?snip_uri=https://github.com/yourusername/your-repo/archive/main.zip`
-
-    or by simply copying the files into a new Overleaf project. You can sync changes with Overleaf's GitHub integration.
-
-> [!NOTE]
-> For more GitHub-Overleaf integration details, see [here](https://www.overleaf.com/learn/how-to/GitHub_Synchronization). For more details on how the above URL automatically creates a new Overleaf project, see [here](https://www.overleaf.com/devs).
+- **Edit in Overleaf**: Copy the `main.tex`, `publications.bib`, and `CleanCV.sty` files into a new Overleaf project. You can sync changes with Overleaf's GitHub integration, documented [here](https://www.overleaf.com/learn/how-to/GitHub_Synchronization) (Overleaf premium is required).
 
 ## Acknowledgments
 
