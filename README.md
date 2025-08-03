@@ -216,7 +216,7 @@ Researchers worldwide use CleanCV for their academic profiles. See examples: [Gi
 
 **Want version control?** Create your own GitHub repo instead of just using Overleaf:
 
-1. **Use template** — Click **"Use this template"** on the [CleanCV repository](https://github.com/giladturok/CleanCV) to create your own copy
+1. **Use template** — Click **"Use this template"** button at the top of [CleanCV repository](https://github.com/giladturok/CleanCV) to create your own copy
 
 2. **Edit your files:**
    - **Locally:** Clone and edit with any LaTeX editor
