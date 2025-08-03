@@ -89,9 +89,9 @@ Awards & Honors
 
 Instead of one-size-fits-all formatting, CleanCV lets you choose the right command for each type of content. Different information deserves different presentation.
 
-**`\cvblock`** — Major entries with details (education, experience, projects)  
-**`\cvitem`** — List entries (awards, talks, service)  
-**Plain text** — Simple content (skills, interests)
+- **`\cvblock`**: Major entries with details (education, experience, projects)  
+- **`\cvitem`**: List entries (awards, talks, service)  
+- **Plain text**: Simple content (skills, interests)
 
 > [!TIP]
 > When in doubt: Need bullet points or multiple lines? Use `\cvblock`. Single line in a list? Use `\cvitem`. Just text? Use neither.
