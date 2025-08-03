@@ -4,7 +4,7 @@
 
 Most academic CV templates are overcomplicated or ugly. CleanCV gives you professional typography, clean design, enhanced readability, and advanced features — so you can focus on your research, not formatting.
 
-See a preview of the example CV (*generated with Claude*):
+See a preview of the example CV (*content generated with Claude*):
 
 <p align="center">
   <img src="assets/pg1_example_cv.svg" width="47%" />
