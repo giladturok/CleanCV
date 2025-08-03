@@ -87,6 +87,29 @@ Awards & Honors
 
 ### When to Use Each Command
 
+Instead of one-size-fits-all formatting, CleanCV lets you choose the right command for each type of content. Different information deserves different presentation.
+
+**`\cvblock`** — Major entries with details (education, experience, projects)  
+**`\cvitem`** — List entries (awards, talks, service)  
+**Plain text** — Simple content (skills, interests)
+
+> [!TIP]
+> When in doubt: Need bullet points or multiple lines? Use `\cvblock`. Single line in a list? Use `\cvitem`. Just text? Use neither.
+
+```latex
+% List entries
+\section*{Awards}
+\begin{itemize}
+    \cvitem{Best Paper Award}{ICML 2023}{June 2023}
+\end{itemize}
+
+% Plain text for skills  
+\section*{Technical Skills}
+\textbf{Programming:} Python, R, MATLAB, C++ \\
+\textbf{Tools:} Git, Docker, Slurm, LaTeX
+
+### When to Use Each Command
+
 CleanCV gives you flexibility to format content appropriately rather than forcing everything into the same template. The key is matching the command to the type of information:
 
 **`\cvblock`** is for entries that need prominence and detail — your major positions, degrees, and projects. These typically have multiple pieces of information (institution, location, title, dates) and often include bullet points describing your accomplishments.
