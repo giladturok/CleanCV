@@ -224,7 +224,7 @@ Researchers worldwide use CleanCV for their academic profiles. See examples: [Gi
      git clone https://github.com/yourusername/your-cv-repo.git
      # Edit main.tex and publications.bib, then compile
      ```
-   - **Overleaf:** Sync your repo with Overleaf [(guide)](https://www.overleaf.com/learn/how-to/GitHub_Synchronization) (premium required)
+   - **Overleaf:** Edit in Overleaf by syncing your Github repo to Overleaf [(guide)](https://www.overleaf.com/learn/how-to/GitHub_Synchronization) (premium required)
 
 ## Acknowledgments
 
