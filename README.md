@@ -224,8 +224,8 @@ Researchers worldwide use CleanCV for their academic profiles. See examples: [Gi
      git clone https://github.com/yourusername/your-cv-repo.git
      # Edit main.tex and publications.bib, then compile
      ```
-   - **Overleaf:** Manually copy files to new project, optionally sync with [GitHub integration](https://www.overleaf.com/learn/how-to/GitHub_Synchronization) (premium required)
-   - 
+   - **Overleaf:** Sync your repo with Overleaf [(guide)](https://www.overleaf.com/learn/how-to/GitHub_Synchronization) (premium required)
+
 ## Acknowledgments
 
 CleanCV is heavily adapted from LaTeX CV templates by [Bastian Rieck](https://github.com/Pseudomanifold/latex-cv) and [Corey Stephan](https://github.com/historical-theology/cv). Please check out their work.
