@@ -107,6 +107,7 @@ Instead of one-size-fits-all formatting, CleanCV lets you choose the right comma
 \section*{Technical Skills}
 \textbf{Programming:} Python, R, MATLAB, C++ \\
 \textbf{Tools:} Git, Docker, Slurm, LaTeX
+```
 
 ### When to Use Each Command
 
