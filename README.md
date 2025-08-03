@@ -4,37 +4,17 @@
 
 CleanCV is designed for academics, graduate students, and researchers, primarily in STEM. It prioritizes readability, ease-of-use, clean design, and exceptional typography. Contains everything you need and nothing you don't.
 
+![CleanCV Example](example_cv.pdf)
+
 > [!TIP]
-> **[:star: Star CleanCV on GitHub](https://github.com/giladturok/CleanCV)** to help others discover this template!
+> :star: Consider starring CleanCV on GitHub to help others discover this template
 
 ## Quick Start
 
-### Step 1: Open in Overleaf
-**[Create your CV instantly in Overleaf →](https://www.overleaf.com/docs?snip_uri=https://github.com/giladturok/CleanCV/archive/main.zip)**  
-*This link opens a new Overleaf project with CleanCV pre-loaded. No downloads or setup required!*
+1. **[Create your CV instantly in Overleaf](https://www.overleaf.com/docs?snip_uri=https://github.com/giladturok/CleanCV/archive/main.zip)** — Opens a new project with CleanCV pre-loaded, no downloads required
+2. **Replace example content** — Update `main.tex` with your information and `publications.bib` with your publication list
 
-*For setting up your own GitHub repository with version control, see the [Create Your Own Repository](#create-your-own-repository) section below.*
-
-### Step 2: Add Your Information
-Replace the example content in `main.tex` with your own information and `publications.bib` with your publication list. Here's a quick example:
-
-```latex
-% Replace with your details
-\cvname{Your Full Name}
-\contactbar{yoursite.com}{you@email.com}{github-user}{linkedin}{scholar-url}{Your City}
-
-% Add your education
-\cvblock{Your University}{City, State}{Ph.D. in Your Field}{2020-2024}
-
-% Add your experience
-\cvblock[
-    \item Your major achievement or research contribution
-    \item Another accomplishment with measurable impact
-]{Institution Name}{Location}{Your Position}{Years}
-```
-
-### Step 3: Compile and Download
-Click "Recompile" in Overleaf → Download PDF → Done!
+*To set up your own GitHub repository with version control, see the [Create Your Own Repository](#create-your-own-repository) section below.*
 
 ## Features
 
@@ -229,7 +209,8 @@ Mark co-first author papers with asterisks:
 
 Researchers worldwide use CleanCV for their academic profiles. See examples: [Gilad Turok](https://giladturok.com/cv), [Jane Doe](https://janedoe.com/cv), [John Smith](https://johnsmith.com/cv).
 
-**Using CleanCV?** We'd love to feature you! [Open an issue](https://github.com/giladturok/CleanCV/issues) with a link to your CV and we'll add you to our gallery.
+> [!TIP]
+> **Using CleanCV?** We'd love to feature you! [Open an issue](https://github.com/giladturok/CleanCV/issues) with a link to your CV and we'll add you to our gallery.
 
 ## Create Your Own Repository
 
@@ -253,9 +234,10 @@ Choose how you want to edit your CV files:
 
   `https://www.overleaf.com/docs?snip_uri=https://github.com/yourusername/your-repo/archive/main.zip`
 
-    or by simply copying the files into a new Overleaf project. You can sync changes with Overleaf's GitHub integration (requires Overleaf premium).
+    or by simply copying the files into a new Overleaf project. You can sync changes with Overleaf's GitHub integration.
 
-For more GitHub-Overleaf integration details, see [here](https://www.overleaf.com/learn/how-to/GitHub_Synchronization). For more details on how the above URL automatically creates a new Overleaf project, see [here](https://www.overleaf.com/devs).
+> [!NOTE]
+> For more GitHub-Overleaf integration details, see [here](https://www.overleaf.com/learn/how-to/GitHub_Synchronization). For more details on how the above URL automatically creates a new Overleaf project, see [here](https://www.overleaf.com/devs).
 
 ## Acknowledgments
 
