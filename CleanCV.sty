@@ -45,7 +45,8 @@
 % Clean typography settings
 \setlength{\parindent}{0pt}     % Remove paragraph indentation
 \setlength{\parskip}{0.2em}     % Set spacing between paragraphs
-\titlespacing*{\section}{0pt}{1.5em}{0.5em}  % Section spacing
+\titlespacing*{\section}{0pt}{1.5em}{0.5em}      % Section spacing
+\titlespacing*{\subsection}{0pt}{0.8em}{0.2em}   % Reduced subsection spacing
 
 % Page numbering and last updated date in footer
 \pagestyle{fancy}
@@ -128,25 +129,27 @@
 % CONTENT FORMATTING COMMANDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Primary entry for positions with optional bullet points
+% Detailed entry for positions with optional bullet points
+% Use for: work experience, education, major projects
 % Arguments:
 %   #1: [Optional] Bullet points (\item statements)
-%   #2: Organization
-%   #3: Location
-%   #4: Title
-%   #5: Date
-\newcommand{\cventry}[5][]{
+%   #2: Institution/Organization name
+%   #3: Location (city, state/country)
+%   #4: Position title or degree
+%   #5: Date range
+\newcommand{\cvblock}[5][]{
   \textbf{#2} \hfill #3 \\ #4 \hfill #5 \par
   \ifx&#1&\else\begin{itemize}#1\end{itemize}\fi
 }
 
-% Simple entry for items without bullet points
+% Simple single-line entry for awards, skills, and brief items
+% Use for: awards, honors, courses, software, brief accomplishments
 % Arguments:
-%   #1: Organization
-%   #2: Title
-%   #3: Date
+%   #1: Specific achievement/award/item name
+%   #2: Granting institution/organization/context
+%   #3: Date or date range
 \newcommand{\cvitem}[3]{
-  #1, #2 \hfill #3
+  \item #1, \emph{#2} \dotfill #3
 }
 
 % Configure itemize environment for compact, clean lists
