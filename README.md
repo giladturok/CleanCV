@@ -12,7 +12,7 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
 </p>
 
 > [!TIP]
-> :star: Consider giving CleanCV a star on Github. It's what Albert would do.
+> :star: Consider giving CleanCV a star on Github. It's Albert Einstein approved!
 
 ## Quick Start
 
