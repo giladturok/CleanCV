@@ -23,27 +23,29 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
 
 ## Features
 
-**:file_folder: Smart Sections**: Includes common academic sections by default `Research Interests`, `Education`, `Experience`, `Awards & Honors`, `Publications`, `Skills`, `Talks & Presentations`, `Teaching`, `Mentoring`, `Service`
+- **:file_folder: Smart Sections**: Includes common academic sections, all easily configurable
 
-**:book: Professional Typography**: ET Book font with carefully optimized spacing for maximum readability
+  - Default sections: `Research Interests`, `Education`, `Experience`, `Awards & Honors`, `Publications`, `Skills`, `Talks & Presentations`, `Teaching`, `Mentoring`, `Service`
 
-**:wrench: Easy Customization**: Change colors, sections, and styling without breaking anything
+- **:book: Professional Typography**: Features the ET Book font with spacing optimized for readability
 
-**:memo: Commented Style File**: `CleanCV.sty` is well-commented for easy understanding and modification
+- **:wrench: Easy Customization**: Change colors, sections, and styling without breaking anything
 
-**:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — that's all you need to learn
+- **:memo: Commented Style File**: Well-commented `CleanCV.sty` for easy modification
 
-**:bust_in_silhouette: Contact Integration**: Professional contact bar with icons for email, GitHub, LinkedIn, Google Scholar
+- **:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — that's all you need to learn
 
-**:arrows_counterclockwise: CV/Resume Dual Mode**: Generate both comprehensive CVs and condensed resumes from the same document
+- **:bust_in_silhouette: Contact Integration**: Professional contact bar with icons for email, GitHub, LinkedIn, Google Scholar, etc.
 
-**:clock10: Last-updated Date**: automatically generates last-updated date
+- **:arrows_counterclockwise: CV/Resume Dual Mode**: Generate both comprehensive CVs and condensed resumes from the same document
 
-**:books: Automated Bibliography**: Generates a formatted publication list directly from your `.bib` file
+- **:clock10: Last-updated Date**: Automatically generates last-updated date on every compilation
 
-**:star: Author Highlighting**: Automatically bolds your name in the author list for easy visibility
+- **:books: Automated Bibliography**: Generates a formatted publication list directly from your `.bib` file
 
-**:asterisk: Joint Authorship Support**: Clearly marks joint first-authors with a dedicated symbol (*)
+- **:star: Author Highlighting**: Automatically bolds your name in publicatins for easy visibility
+
+- **:asterisk: Joint Authorship Support**: Indicates joint first-authors with a designated symbol (*)
 
 ## How It Works
 
