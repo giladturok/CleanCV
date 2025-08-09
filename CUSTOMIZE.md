@@ -1,8 +1,8 @@
-## How It Works
+# How It Works
 
 CleanCV uses just two commands to handle all your CV content:
 
-### `\cvblock` — For Important Entries
+## `\cvblock` — For Important Entries
 Use for education, experience, major projects. Supports optional bullet points.
 
 ```latex
@@ -23,7 +23,7 @@ PhD Candidate in Computer Science                        2020-2024
 - Received departmental teaching award
 ```
 
-### `\cvitem` — For List Entries
+## `\cvitem` — For List Entries
 Use for awards, talks, service. Clean one-line format within lists.
 
 ```latex
@@ -44,7 +44,7 @@ Awards & Honors
 - Outstanding TA Award, Stanford CS Department ·············· Spring 2022
 ```
 
-### When to Use Each Command
+## When to Use Each Command
 
 Instead of one-size-fits-all formatting, CleanCV lets you choose the right command for each type of content. Different information deserves different presentation.
 
@@ -68,9 +68,9 @@ Instead of one-size-fits-all formatting, CleanCV lets you choose the right comma
 > [!TIP]
 > When in doubt: Need bullet points or multiple lines? Use `\cvblock`. Single line in a list? Use `\cvitem`. Just text? Use neither.
 
-## Customize
+# Customize
 
-### Manage CV Sections
+## Manage CV Sections
 Add, remove, or reorder sections as needed. The template includes these sections by default (some of which have their own subsections):
 - `Research Interests`, `Education`, `Experience`, `Awards & Honors`, `Publications`, `Skills`, `Talks & Presentations`, `Teaching`, `Mentoring`, `Service`
 
@@ -92,7 +92,7 @@ Here's an example of a new section with subsections:
 \end{itemize}
 ```
 
-### Change Colors and Styling
+## Change Colors and Styling
 Edit key styling options in `CleanCV.sty`:
 ```latex
 % Change primary color theme
@@ -114,7 +114,7 @@ Edit key styling options in `CleanCV.sty`:
 \titlespacing*{\section}{0pt}{1.5em}{0.5em}    % Section spacing
 ```
 
-### CV vs Resume Mode
+## CV vs Resume Mode
 Generate different versions by editing the top of `main.tex`:
 ```latex
 \cvtrue   % Full academic CV (includes all sections)
@@ -131,7 +131,7 @@ Wrap optional sections in conditional blocks:
 \fi  % Ends the conditional block
 ```
 
-### Customize Contact Bar
+## Customize Contact Bar
 Modify the contact bar by editing icons or removing sections in `main.tex`:
 ```latex
 % Standard contact bar
@@ -141,7 +141,7 @@ Modify the contact bar by editing icons or removing sections in `main.tex`:
 \contactbar{yoursite.com}{you@email.com}{}{linkedin}{}{Your City}
 ```
 
-### Name Highlighting in Publications
+## Name Highlighting in Publications
 Your name appears bold in every publication automatically:
 ```latex
 % In main.tex - must match your name exactly in .bib file
@@ -151,7 +151,7 @@ Your name appears bold in every publication automatically:
 > [!IMPORTANT]
 > The name in `\boldname{}` must match exactly how your name appears in your `.bib` file, including capitalization and any middle initials.
 
-### Joint First Author Annotations
+## Joint First Author Annotations
 Mark co-first author papers with asterisks:
 ```latex
 % In publications.bib - add this annotation
