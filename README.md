@@ -24,15 +24,25 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
 ## Features
 
 - **:file_folder: Smart Sections**: Includes common academic sections by default `Research Interests`, `Education`, `Experience`, `Awards & Honors`, `Publications`, `Skills`, `Talks & Presentations`, `Teaching`, `Mentoring`, `Service`
+
 - **:book: Professional Typography**: ET Book font with carefully optimized spacing for maximum readability
+
 - **:wrench: Easy Customization**: Change colors, sections, and styling without breaking anything
+
 - **:memo: Commented Style File**: `CleanCV.sty` is well-commented for easy understanding and modification
+
 - **:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — that's all you need to learn
+
 - **:bust_in_silhouette: Contact Integration**: Professional contact bar with icons for email, GitHub, LinkedIn, Google Scholar
+
 - **:arrows_counterclockwise: CV/Resume Dual Mode**: Generate both comprehensive CVs and condensed resumes from the same document
+
 - **:clock10: Last-updated Date**: automatically generates last-updated date
+
 - **:books: Automated Bibliography**: Generates a formatted publication list directly from your `.bib` file
+
 - **:star: Author Highlighting**: Automatically bolds your name in the author list for easy visibility
+
 - **:asterisk: Joint Authorship Support**: Clearly marks joint first-authors with a dedicated symbol (*)
 
 ## How It Works
