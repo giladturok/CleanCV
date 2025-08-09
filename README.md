@@ -37,7 +37,7 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
 
 - **:bust_in_silhouette: Contact Integration**: Professional contact bar with icons for email, GitHub, LinkedIn, Google Scholar, etc.
 
-- **:arrows_counterclockwise: CV/Resume Dual Mode**: Generate both comprehensive CVs and condensed resumes from the same document
+- **:arrows_counterclockwise: CV/Resume Dual Mode**: Generate both comprehensive CVs and condensed resumes from one document
 
 - **:clock10: Last-updated Date**: Automatically generates last-updated date on every compilation
 
