@@ -29,7 +29,7 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
 
 - **:book: Professional Typography**: Features the ET Book font with spacing optimized for readability
 
-- **:wrench: Easy Customization**: Change colors, sections, and styling without breaking anything
+- **:wrench: Easy Customization**: Change colors, formatting, and styling without breaking anything
 
 - **:memo: Commented Style File**: Well-commented `CleanCV.sty` for easy modification
 
