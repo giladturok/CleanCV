@@ -23,21 +23,33 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
 
 ## Features
 
+Design and Layout
+
+- **:file_folder: Smart Sections**: Includes common academic sections by default `Research Interests`, `Education`, `Experience`, `Awards & Honors`, `Publications`, `Skills`, `Talks & Presentations`, `Teaching`, `Mentoring`, `Service`
+
 - **:book: Professional Typography**: ET Book font with carefully optimized spacing for maximum readability
+
+Editing
 
 - **:wrench: Easy Customization**: Change colors, sections, and styling without breaking anything
 
-- **:books: Smart Publications**: Your `.bib` file automatically becomes a formatted publication list with your name highlighted in bold and joint first-authors marked with an asterisk (*)
-
 - **:memo: Commented Style File**: `CleanCV.sty` is well-commented for easy understanding and modification
+
+- **:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — that's all you need to learn
+
+Quality of Life Enhancements
 
 - **:bust_in_silhouette: Contact Integration**: Professional contact bar with icons for email, GitHub, LinkedIn, Google Scholar
 
 - **:arrows_counterclockwise: CV/Resume Dual Mode**: Generate both comprehensive CVs and condensed resumes from the same document
 
-- **:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — that's all you need to learn
-
 - **:clock10: Last-updated Date**: automatically generates last-updated date
+
+Smart Publications
+
+- **:books: Automated Bibliography**: Generates a formatted publication list directly from your `.bib` file
+- **:star: Author Highlighting**: Automatically bolds your name in the author list for easy visibility
+- **:asterisk: Joint Authorship Support**: Clearly marks joint first-authors with a dedicated symbol (*)
 
 ## How It Works
 
@@ -113,7 +125,7 @@ Instead of one-size-fits-all formatting, CleanCV lets you choose the right comma
 
 ### Manage CV Sections
 Add, remove, or reorder sections as needed. The template includes these sections by default (some of which have their own subsections):
-- `Research Interests`, `Education`, `Experience`, `Awards & Honors`, `Publications`, `Skills`, `Talks & Presentations`, `Teaching`, `Mentoring`, `Service`, `Media Coverage`
+- `Research Interests`, `Education`, `Experience`, `Awards & Honors`, `Publications`, `Skills`, `Talks & Presentations`, `Teaching`, `Mentoring`, `Service`
 
 Here's an example of a new section with subsections:
 
