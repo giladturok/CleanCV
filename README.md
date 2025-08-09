@@ -31,7 +31,7 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
 
 - **:wrench: Easy Customization**: Change colors, formatting, and styling without breaking anything
 
-- **:memo: Commented Style File**: Well-commented `CleanCV.sty` for easy modification
+- **:memo: Commented Style File**: Well-commented `CleanCV.sty` that you'll easily understand
 
 - **:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — that's all you need to learn
 
