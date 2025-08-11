@@ -74,7 +74,7 @@ Instead of one-size-fits-all formatting, CleanCV lets you choose the right comma
 Add, remove, or reorder sections as needed. The template includes these sections by default (some of which have their own subsections):
 - `Research Interests`, `Education`, `Experience`, `Awards & Honors`, `Publications`, `Skills`, `Talks & Presentations`, `Teaching`, `Mentoring`, `Service`
 
-Here's an example of a new section with subsections:
+Here's an example of adding a new section with its own subsections:
 
 ```latex
 \section*{Hobbies} % Add a new section
