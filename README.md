@@ -33,7 +33,7 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
 
 - **:memo: Commented Style File**: Well-commented `CleanCV.sty` that you'll easily understand
 
-- **:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — that's all you need to learn
+- **:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — it's all you need to learn
 
 - **:bust_in_silhouette: Contact Integration**: Professional contact bar with icons for email, GitHub, LinkedIn, Google Scholar, etc.
 
@@ -70,4 +70,4 @@ Researchers worldwide use CleanCV for their academic profiles. See examples: [Gi
 
 ## Acknowledgments
 
-CleanCV is heavily adapted from LaTeX CV templates by [Bastian Rieck](https://github.com/Pseudomanifold/latex-cv) and [Corey Stephan](https://github.com/historical-theology/cv). Please check out their work.
+CleanCV is heavily adapted from LaTeX CV templates by [Bastian Rieck](https://github.com/Pseudomanifold/latex-cv) and [Corey Stephan](https://github.com/historical-theology/cv). Please see their work.
