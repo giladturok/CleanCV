@@ -17,7 +17,9 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
 ## Quick Start
 
 1. **[Create your CV instantly in Overleaf](https://www.overleaf.com/docs?snip_uri=https://github.com/giladturok/CleanCV/archive/main.zip)** — Click to open a new Overleaf project with CleanCV pre-loaded
-2. **Replace example content** — Update `main.tex` and `publications.bib` with your information, see detailed instructions in [customize.md](customize.md)
+2. **Replace example content** — Update `main.tex` and `publications.bib` with your information
+  
+To make it your own, see detailed and step-by-step instructions in [customize.md](customize.md).
 
 *To set up your own GitHub repository with version control, see the [Create Your Own Repository](#create-your-own-repository) section below.*
 
