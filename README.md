@@ -43,7 +43,7 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
 
 - **:books: Automated Bibliography**: Generates a formatted publication list directly from your `.bib` file
 
-- **:star: Author Highlighting**: Automatically bolds your name in publicatins for easy visibility
+- **:star: Author Highlighting**: Automatically bolds your name in publications for easy visibility
 
 - **:asterisk: Joint Authorship Support**: Indicates joint first-authors with a designated symbol (*)
 
