@@ -49,7 +49,9 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
 
 ## User Gallery
 
-Researchers worldwide use CleanCV for their academic profiles. See examples: [Gilad Turok](https://giladturok.com/cv), [Jane Doe](https://janedoe.com/cv), [John Smith](https://johnsmith.com/cv).
+Researchers worldwide use CleanCV for their academic profiles.
+
+See examples: [Gilad Turok](https://giladturok.com/cv), [Jane Doe](https://janedoe.com/cv), [John Smith](https://johnsmith.com/cv).
 
 > [!TIP]
 > **Using CleanCV?** We'd love to feature you! [Open an issue](https://github.com/giladturok/CleanCV/issues) with a link to your CV and we'll add you to our gallery.
