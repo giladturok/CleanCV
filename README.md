@@ -2,7 +2,7 @@
 
 **Modern, minimal, and modular LaTeX CV template**
 
-Most academic LaTeX CVs are ugly, hard to use, or both. CleanCV gives you professional typography, clean design, effortless customization, and advanced features — so you can focus on research, not formatting.
+Most academic LaTeX CVs are ugly, hard to use, or both. CleanCV gives you clean design, effortless customization, and advanced features — so you can focus on your research, not formatting.
 
 See the [example cv](example_cv.pdf) or preview the first 2 pages here (*content generated with Claude*):
 
