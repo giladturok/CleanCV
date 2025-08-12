@@ -4,12 +4,12 @@
 
 Most academic CV templates in LaTeX are ugly, hard to use, or both. CleanCV gives you professional typography, clean design, enhanced readability, and advanced features — so you can focus on your research, not formatting.
 
-See the [example cv](example_cv.pdf) or preview the first page right here (*content generated with Claude*):
+See the [example cv](example_cv.pdf) or preview the first two pages here (*content generated with Claude*):
 
 <p align="center">
-  <img src="assets/pg1_example_cv.svg" width="90%" />
+  <img src="assets/pg1_example_cv.svg" width="48%" />
+  <img src="assets/pg2_example_cv.svg" width="48%" />
 </p>
-
 
 > [!TIP]
 > :star: Consider giving CleanCV a star on Github. It'll guarantee you tenure -- I promise!
