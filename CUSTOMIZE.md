@@ -131,6 +131,19 @@ Wrap optional sections in conditional blocks:
 \fi  % Ends the conditional block
 ```
 
+> [!TIP]
+> If your resume is longer than one page, you can simply increase the page height in `CleanCV.sty`:
+> ```latex
+> \geometry{
+>     letterpaper,
+>     left=2.5cm,
+>     right=2.5cm,
+>     top=2cm,
+>     bottom=2.5cm,
+>     pageheight=30cm        % Add this argument and set the height
+> }
+> ```
+
 ## Customize Contact Bar
 Modify the contact bar by editing icons or removing sections in `main.tex`:
 ```latex
