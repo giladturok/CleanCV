@@ -7,8 +7,7 @@ Most academic CV templates are overcomplicated or ugly. CleanCV gives you profes
 See the [example cv](example_cv.pdf) or a preview right here (*content generated with Claude*):
 
 <p align="center">
-  <img src="assets/pg1_example_cv.svg" width="47%" />
-  <img src="assets/pg2_example_cv.svg" width="47%" />
+  <img src="assets/pg1_example_cv.svg" width="99%" />
 </p>
 
 > [!TIP]
