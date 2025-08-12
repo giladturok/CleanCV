@@ -132,7 +132,7 @@ Wrap optional sections in conditional blocks:
 ```
 
 > [!TIP]
-> If your resume is longer than one page, you can simply increase the page height in `CleanCV.sty`:
+> If you want a one page resume but it's too long, increase the page height in `CleanCV.sty`:
 > ```latex
 > \geometry{
 >     letterpaper,
