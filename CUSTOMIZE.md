@@ -1,6 +1,6 @@
 # How It Works
 
-CleanCV uses just two commands, defind in `CleanCV.sty`, to handle all your CV content:
+CleanCV uses just two commands, defined in `CleanCV.sty`, to handle all your CV content:
 
 ## `\cvblock` — For Important Entries
 Use for education, experience, major projects. Supports optional bullet points.
