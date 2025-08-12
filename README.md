@@ -10,6 +10,11 @@ See the [example cv](example_cv.pdf) or a preview right here (*content generated
   <img src="assets/pg1_example_cv.svg" width="99%" />
 </p>
 
+<p align="center">
+  <img src="assets/pg2_example_cv.svg" width="99%" />
+</p>
+
+
 > [!TIP]
 > :star: Consider giving CleanCV a star on Github. It's Albert Einstein approved!
 
