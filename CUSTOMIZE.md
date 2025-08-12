@@ -149,7 +149,7 @@ Your name appears bold in every publication automatically:
 ```
 
 > [!IMPORTANT]
-> The name in `\boldname{}` must match exactly how your name appears in your `.bib` file, including capitalization and any middle initials.
+> The name in `\boldname{}` must match exactly how your name appears in your `.bib` file, including capitalization and any middle initials. If no middle initials, leave the brackets `{}` empty.
 
 ## Joint First Author Annotations
 Mark co-first author papers with asterisks:
