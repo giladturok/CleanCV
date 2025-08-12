@@ -7,8 +7,8 @@ Most academic CV templates in LaTeX are ugly, hard to use, or both. CleanCV give
 See the [example cv](example_cv.pdf) or preview the first two pages here (*content generated with Claude*):
 
 <p align="center">
-  <img src="assets/pg1_example_cv.svg" width="48%" />
-  <img src="assets/pg2_example_cv.svg" width="48%" />
+  <img src="assets/pg1_example_cv.svg" width="49%" />
+  <img src="assets/pg2_example_cv.svg" width="49%" />
 </p>
 
 > [!TIP]
