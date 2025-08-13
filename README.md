@@ -32,7 +32,7 @@ See detailed and step-by-step instructions in [customize.md](customize.md) on ho
 
 - **:wrench: Easy Customization**: Change colors, formatting, and styling without breaking anything
 
-- **:memo: Commented Style File**: Well-commented `CleanCV.sty` that you'll easily understand
+- **:memo: Commented Style File**: Well-commented `cleancv.sty` that you'll easily understand
 
 - **:zap: Two-Command System**: `\cvblock` for detailed entries, `\cvitem` for simple lists — it's all you need to learn
 
