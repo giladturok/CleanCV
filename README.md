@@ -4,7 +4,7 @@
 
 Many LaTeX CV templates are ugly, hard to use, or both. CleanCV gives you clean design, effortless customization, and advanced features — so you can focus on your research, not formatting.
 
-See the [example cv](example_cv.pdf) or preview the first 2 pages below (*content generated with Claude*):
+See the [example cv](assets/example_cv.pdf) or preview the first 2 pages below (*content generated with Claude*):
 
 <p align="center">
   <img src="assets/pg1_example_cv.svg" width="49%" />
