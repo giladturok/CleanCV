@@ -2,7 +2,7 @@
 
 **Modern, minimal, and modular LaTeX CV template** :sparkles: :page_facing_up:
 
-Most academic LaTeX CVs are ugly, hard to use, or both. CleanCV gives you clean design, effortless customization, and advanced features — so you can focus on your research, not formatting.
+Many academic LaTeX CVs are ugly, hard to use, or both. CleanCV gives you clean design, effortless customization, and advanced features — so you can focus on your research, not formatting.
 
 See the [example cv](example_cv.pdf) or preview the first 2 pages below (*content generated with Claude*):
 
