@@ -12,7 +12,7 @@ See the [example cv](assets/example_cv.pdf) or preview the first 2 pages below (
 </p>
 
 > [!TIP]
-> :star: Consider giving CleanCV a star on Github. It'll guarantee you tenure!
+> :star: Consider giving CleanCV a star on Github. It will guarantee you tenure!
 ## Quick Start
 
 1. **[Create your CV instantly in Overleaf](https://www.overleaf.com/docs?snip_uri=https://github.com/giladturok/CleanCV/archive/main.zip)** — Click to open a new Overleaf project with CleanCV pre-loaded
