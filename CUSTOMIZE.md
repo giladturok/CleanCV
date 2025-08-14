@@ -74,7 +74,7 @@ Instead of one-size-fits-all formatting, CleanCV lets you choose the right comma
 Add, remove, or reorder sections (and subsections) as needed.
 
 - Default sections: `Research Interests`, `Education`, `Experience`, `Awards & Honors`, `Publications`, `Skills`, `Talks & Presentations`, `Teaching`, `Mentoring`, `Service`
-- Suggested additional sections: `Media Coverage`, `Blog`, `Grants & Fundraising`, `Professional Affiliations`, `Refrences`
+- Suggested additional sections: `Media Coverage`, `Blog`, `Grants & Fundraising`, `Professional Affiliations`, `References`
 
 Here's an example of adding a new section with its own subsections:
 
