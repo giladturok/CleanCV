@@ -73,8 +73,7 @@ Instead of one-size-fits-all formatting, CleanCV lets you choose the right comma
 ## Manage CV Sections
 Add, remove, or reorder sections (and subsections) as needed.
 
-- Default sections: `Research Interests`, `Education`, `Experience`, `Awards & Honors`, `Publications`, `Skills`, `Talks & Presentations`, `Teaching`, `Mentoring`, `Service`
-- Suggested additional sections: `Media Coverage`, `Blog`, `Grants & Fundraising`, `Professional Affiliations`, `References`
+- Default sections: `Research Interests`, `Education`, `Experience`, `Awards & Honors`, `Publications`, `Skills`, `Code`, `Talks & Presentations`, `Teaching`, `Mentoring`, `Service`
 
 Here's an example of adding a new section with its own subsections:
 
@@ -93,6 +92,8 @@ Here's an example of adding a new section with its own subsections:
     \cvitem{Baking}{Cakes, pastries, and bread-making}{2018-present}
 \end{itemize}
 ```
+
+- Suggested additional sections: `Media Coverage`, `Blog`, `Grants & Fundraising`, `Professional Affiliations`, `References`
 
 ## Change Colors and Styling
 Edit key styling options in `CleanCV.sty`:
