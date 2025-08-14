@@ -143,7 +143,7 @@ Wrap optional sections in conditional blocks:
 >     right=2.5cm,
 >     top=2cm,
 >     bottom=2.5cm,
->     pageheight=30cm        % Add this argument and set the height
+>     pageheight=30cm        % Add this argument and set the appropriate height
 > }
 > ```
 
