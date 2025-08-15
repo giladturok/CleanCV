@@ -7,7 +7,7 @@ Many LaTeX CV templates are ugly, hard to use, or both. CleanCV gives you clean 
 See the [example cv](assets/example_cv.pdf) or preview the first 2 pages below (*content generated with Claude*):
 
 <p align="center">
-  <img src="assets/pg1_example_cv.png" width="49%" />
+  <img src="assets/pg1_example_cv.svg" width="49%" />
   <img src="assets/pg2_example_cv.svg" width="49%" />
 </p>
 
