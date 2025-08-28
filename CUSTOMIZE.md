@@ -167,19 +167,6 @@ Your name appears bold in every publication automatically:
 > [!IMPORTANT]
 > The name in `\boldname{}` must match exactly how your name appears in your `.bib` file, including capitalization and any middle initials. If no middle initials, leave the brackets `{}` empty.
 
-## Joint First-Author Annotations
-Mark joint first-author papers with asterisks:
-```latex
-% In publications.bib - add this annotation
-@article{yourpaper2023,
-    title={Your Amazing Research},
-    author={Your Name and Collaborator Name},
-    journal={Nature},
-    year={2023},
-    annote={jointfirst}  % This adds the asterisk: Your Name*
-}
-```
-
 ## Author Annotations in Publications
 
 Add author annotations in `publications.bib` via the `author+an` field. Default annotations include equal contribution (*) and corresponding author (†).
