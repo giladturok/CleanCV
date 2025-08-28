@@ -178,13 +178,10 @@
 \renewcommand{\mkbibnamefamily}[1]{%
   \ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
   {\mkbibbold{#1}}{#1}%
+
+  % Author annotations (applied to family names)
+  \ifitemannotation{equal}{\textsuperscript{*}}{}% Equal contribution
+  \ifitemannotation{corresponding}{$^\dagger$}{}% Corresponding author
 }
 
-% Adds asterisk for joint first authors
-% Use the 'jointfirst' annotation in your .bib file
-% See https://tex.stackexchange.com/a/699794
-\renewcommand*{\mkbibcompletename}[1]{%
-  \ifitemannotation{jointfirst}
-    {#1^*}       % Name* (if joint first author)
-    {#1}         % Name (otherwise)
-}
+
