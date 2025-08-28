@@ -182,7 +182,7 @@ Mark joint first-author papers with asterisks:
 
 ## Author Annotations in Publications
 
-Add author annotations in `publications.bib` via the `author+an` field:
+Add author annotations in `publications.bib` via the `author+an` field. Default annotations include equal contribution (*) and corresponding author (†).
 
 ```latex
 @article{yourpaper2023,
@@ -190,12 +190,11 @@ Add author annotations in `publications.bib` via the `author+an` field:
     author={Your Name and Collaborator Name and Third Author},
     journal={Nature},
     year={2023},
-    % Separate authors with semicolons and multiple annotations with commas
+    % Author annotations are assigned via numerical author ordering
+    % Separate authors with semicolons and separate multiple annotations with commas
     author+an = {1=equal; 2=equal,corresponding; 3=corresponding}
 }
 ```
-
-Default annotations include equal contribution (*) and corresponding author (†). They are assigned via numerical author orderering (e.g. `1` assigns the annotation for the first author).
 
 Annotations are implemented in `cleancv.sty` following the [Hansen Lab approach](http://www.hansenlab.org/cv_bibliography_tex):
 
