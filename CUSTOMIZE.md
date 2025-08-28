@@ -179,3 +179,41 @@ Mark joint first-author papers with asterisks:
     annote={jointfirst}  % This adds the asterisk: Your Name*
 }
 ```
+
+## Author Annotations in Publications
+
+Add author annotations in `publications.bib` via the `author+an` field:
+
+```latex
+@article{yourpaper2023,
+    title={Your Amazing Research},
+    author={Your Name and Collaborator Name and Third Author},
+    journal={Nature},
+    year={2023},
+    % Separate authors with semicolons and multiple annotations with commas
+    author+an = {1=equal; 2=equal,corresponding; 3=corresponding}
+}
+```
+
+Default annotations include equal contribution (*) and corresponding author (†). They are assigned via numerical author orderering (e.g. `1` assigns the annotation for the first author).
+
+Annotations are implemented in `cleancv.sty` following the [Hansen Lab approach](http://www.hansenlab.org/cv_bibliography_tex):
+
+```latex
+\renewcommand{\mkbibnamefamily}[1]{% Author annotations applied to family/last names
+  \ifitemannotation{equal}{\textsuperscript{*}}{}% Equal contribution
+  \ifitemannotation{corresponding}{$^\dagger$}{}% Corresponding author
+}
+```
+
+`main.tex` also includes a note explaining the author annotation symbols:
+```latex
+\section*{Publications}
+
+% Define note explaining publication symbols for author annotations
+\defbibnote{symbols}{$^*$ Equal contribution \quad $^\dagger$ Corresponding author}
+
+% Publications would be loaded from publications.bib
+\nocite{*}
+\printbibliography[heading=none,prenote=symbols]
+```
