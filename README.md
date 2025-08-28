@@ -38,7 +38,7 @@ See detailed and step-by-step instructions in [customize.md](customize.md) on ho
 
 - **:bust_in_silhouette: Contact Integration**: Professional contact bar with icons for email, GitHub, LinkedIn, Google Scholar, etc.
 
-- **:arrows_counterclockwise: CV/Resume Dual Mode**: Generate both comprehensive CVs and condensed resumes from one document
+- **:arrows_counterclockwise: CV/Resume Dual Mode**: Generate both comprehensive CV and condensed resume from one document
 
 - **:clock10: Last-updated Date**: Automatically generates last-updated date on every compilation
 
