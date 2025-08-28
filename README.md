@@ -44,11 +44,9 @@ See detailed and step-by-step instructions in [customize.md](customize.md) on ho
 
 - **:books: Automated Bibliography**: Generates a formatted publication list directly from your `.bib` file
 
-- **:pencil: Advanced Author Management**: Automatically bolds your name in publications and supports comprehensive authorship annotations for equal contribution (*) and corresponding authors (†)
+- **:star: Personal Name Bolding**: Automatically bolds your name in all publication entries for instant recognition
 
-- **:star: Author Highlighting**: Automatically bolds your name in publications for easy visibility
-
-- **:asterisk: Joint Authorship Support**: Indicates joint first-authors with a designated symbol (*)
+- **:pencil2: Author Role Annotations**: Comprehensive annotation system for marking equal contribution (*) and corresponding authors (†) in publication lists
 
 ## Create Your Own Repository
 
