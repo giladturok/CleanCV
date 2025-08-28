@@ -44,7 +44,7 @@ See detailed and step-by-step instructions in [customize.md](customize.md) on ho
 
 - **:books: Automated Bibliography**: Generates a formatted publication list directly from your `.bib` file
 
-- **:star: Personal Name Bolding**: Automatically bolds your name in all publication entries for instant recognition
+- **:star: Personal Name Bolding**: Automatically bolds your name in publication lists for instant recognition
 
 - **:pencil2: Author Role Annotations**: Comprehensive annotation system for marking equal contribution (*) and corresponding authors (†) in publication lists
 
