@@ -99,9 +99,12 @@ Theoretical physics, general relativity, quantum mechanics, statistical mechanic
 \ifcv
 \section*{Publications}
 
+% Define note explaining publication symbols for author annotations
+\defbibnote{symbols}{$^*$ Equal contribution \quad $^\dagger$ Corresponding author}
+
 % Publications would be loaded from publications.bib
 \nocite{*}
-\printbibliography[heading=none]
+\printbibliography[heading=none,prenote=symbols]
 \fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
