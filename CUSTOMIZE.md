@@ -196,23 +196,9 @@ Add author annotations in `publications.bib` via the `author+an` field. Default 
 }
 ```
 
-Annotations are implemented in `cleancv.sty` following the [Hansen Lab approach](http://www.hansenlab.org/cv_bibliography_tex):
-
-```latex
-\renewcommand{\mkbibnamefamily}[1]{% Author annotations applied to family/last names
-  \ifitemannotation{equal}{\textsuperscript{*}}{}% Equal contribution
-  \ifitemannotation{corresponding}{$^\dagger$}{}% Corresponding author
-}
+**Output**:
+```text
+Your Name*, Collaborator Name*†, and Third Author†. “Your Amazing Research”. In: Nature (2023).
 ```
 
-`main.tex` also includes a note explaining the author annotation symbols:
-```latex
-\section*{Publications}
-
-% Define note explaining publication symbols for author annotations
-\defbibnote{symbols}{$^*$ Equal contribution \quad $^\dagger$ Corresponding author}
-
-% Publications would be loaded from publications.bib
-\nocite{*}
-\printbibliography[heading=none,prenote=symbols]
-```
+Annotations are implemented in `cleancv.sty` following the [Hansen Lab approach](http://www.hansenlab.org/cv_bibliography_tex). `main.tex` also includes a note explaining author annotation symbols at the top of the `Publications` section.
