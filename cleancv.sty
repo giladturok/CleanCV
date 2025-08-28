@@ -178,7 +178,6 @@
 \renewcommand{\mkbibnamefamily}[1]{%
   \ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
   {\mkbibbold{#1}}{#1}%
-
   % Author annotations (applied to family names)
   \ifitemannotation{equal}{\textsuperscript{*}}{}% Equal contribution
   \ifitemannotation{corresponding}{$^\dagger$}{}% Corresponding author
