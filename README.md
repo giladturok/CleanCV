@@ -46,7 +46,7 @@ See detailed and step-by-step instructions in [customize.md](customize.md) on ho
 
 - **:star: Personal Name Bolding**: Automatically bolds your name in publication lists for instant recognition
 
-- **:pencil2: Author Role Annotations**: Comprehensive annotation system for marking equal contribution (*) and corresponding authors (†) in publication lists
+- **:pencil2: Author Role Annotations**: Mark equal contribution (*) and corresponding authors (†) in publication lists
 
 ## Create Your Own Repository
 
