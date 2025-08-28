@@ -201,4 +201,4 @@ Add author annotations in `publications.bib` via the `author+an` field. Default 
 Your Name*, Collaborator Name*†, and Third Author†. “Your Amazing Research”. In: Nature (2023).
 ```
 
-Annotations are implemented in `cleancv.sty` following the [Hansen Lab approach](http://www.hansenlab.org/cv_bibliography_tex). `main.tex` also includes a note explaining author annotation symbols, located at the top of the `Publications` section.
+Annotations are implemented in `cleancv.sty` following the [Hansen Lab approach](http://www.hansenlab.org/cv_bibliography_tex). `main.tex` also includes a note explaining author annotation symbols, located at the top of the `Publications` section. Use them to create custom author annotations.
